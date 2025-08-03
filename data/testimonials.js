@@ -1,0 +1,58 @@
+export const testimonials = [
+  "DAN Trading has consistently delivered top-quality industrial equipment on time. Their team is responsive, reliable, and technically strong.",
+  "From rotating equipment repairs to pipeline solutions, DAN Trading always exceeds expectations. A trusted partner in every project.",
+  "We've worked with DAN on multiple energy projects. Their supply chain and technical support are among the best in Kuwait.",
+];
+
+export const testimonials2 = [
+  {
+    id: 1,
+    shapeImgSrc: "/assets/img/testimonial/shape-right.png",
+    text: "DAN Trading has consistently delivered top-quality industrial equipment on time. Their team is responsive, reliable, and technically strong.",
+    clientImgSrc: "/assets/img/testimonial/client-1.png",
+    clientName: "Full Name",
+    clientRole: "Maintenance Manager",
+    logoSrc: "/assets/img/testimonial/amazon.png",
+    style: "",
+  },
+  {
+    id: 2,
+    shapeImgSrc: "/assets/img/testimonial/shape-right.png",
+    text: "From rotating equipment repairs to pipeline solutions, DAN Trading always exceeds expectations. A trusted partner in every project.",
+    clientImgSrc: "/assets/img/testimonial/client-2.png",
+    clientName: "Full Name",
+    clientRole: "Projects Engineer",
+    logoSrc: "/assets/img/testimonial/envato.png",
+    style: "style-2",
+  },
+  {
+    id: 3,
+    shapeImgSrc: "/assets/img/testimonial/shape-right.png",
+    text: "We've worked with DAN on multiple energy projects. Their supply chain and technical support are among the best in Kuwait.",
+    clientImgSrc: "/assets/img/testimonial/client-3.png",
+    clientName: "Full Name",
+    clientRole: "Procurement Lead",
+    logoSrc: "/assets/img/testimonial/amazon.png",
+    style: "",
+  },
+  {
+    id: 4,
+    shapeImgSrc: "/assets/img/testimonial/shape-right.png",
+    text: "The team at DAN understands urgency, precision, and professionalism. Their field service crew is extremely capable and safety-focused.",
+    clientImgSrc: "/assets/img/testimonial/client-4.png",
+    clientName: "Full Name",
+    clientRole: "Lead Consultant",
+    logoSrc: "/assets/img/testimonial/envato.png",
+    style: "style-2",
+  },
+  {
+    id: 5,
+    shapeImgSrc: "/assets/img/testimonial/shape-right.png",
+    text: "We appreciate DAN's transparency, quality products, and ongoing support. They've become an essential extension of our operations.",
+    clientImgSrc: "/assets/img/testimonial/client-5.png",
+    clientName: "Full Name",
+    clientRole: "Operations Supervisor",
+    logoSrc: "/assets/img/testimonial/amazon.png",
+    style: "",
+  },
+];

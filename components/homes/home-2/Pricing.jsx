@@ -4,6 +4,8 @@ import React from "react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import AnimatedText from "@/components/common/AnimatedText";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Pricing({ shadow = false }) {
   const swiperOptions = {
@@ -16,11 +18,12 @@ export default function Pricing({ shadow = false }) {
     },
     modules: [Autoplay, Navigation, Pagination],
     pagination: {
-      el: ".product-dot",
+      el: ".pricing-dot",
+      clickable: true,
     },
     navigation: {
-      prevEl: ".pnbp3",
-      nextEl: ".pnbn3",
+      prevEl: ".pricing-prev",
+      nextEl: ".pricing-next",
     },
     breakpoints: {
       1399: {
@@ -59,13 +62,47 @@ export default function Pricing({ shadow = false }) {
         </div>
       </div>
       <div className="container-fluid">
-        <Swiper {...swiperOptions} className="swiper product-slider">
+        <Swiper {...swiperOptions} className="swiper service-slider-2">
           {products.map((product, index) => (
             <SwiperSlide key={index} className="swiper-slide">
-              <div className="product-card-items">
-                <div className="product-content">
-                  <h3>{product.title}</h3>
-                  <p className="product-description">{product.description}</p>
+              <div className="service-card-items">
+                <div className="service-image">
+                  <Image
+                    src={product.image || "/assets/img/service/01.jpg"}
+                    width={370}
+                    height={367}
+                    alt="Product"
+                  />
+                </div>
+                <div className="bar-shape">
+                  <Image
+                    src="/assets/img/service/bar.png"
+                    width={290}
+                    height={118}
+                    alt="Bar Shape"
+                  />
+                </div>
+                <div className="content">
+                  <h3>
+                    <Link href={`#`}>
+                      {product.title}
+                    </Link>
+                  </h3>
+                  <p>{product.description}</p>
+                  <Link
+                    href={`#`}
+                    className="link-btn"
+                  >
+                    Learn More <i className="fa-solid fa-arrow-right" />
+                  </Link>
+                </div>
+                <div className="items-shape">
+                  <Image
+                    src="/assets/img/service/items-shape.png"
+                    width={370}
+                    height={178}
+                    alt="Items Shape"
+                  />
                 </div>
               </div>
             </SwiperSlide>
@@ -73,13 +110,13 @@ export default function Pricing({ shadow = false }) {
         </Swiper>
       </div>
       <div className="container">
-        <div className="product-pagi-items">
-          <div className="product-dot" />
-          <div className="array-buttons">
-            <button className="array-prev pnbp3">
+        <div className="service-pagi-items d-flex justify-content-end">
+          <div className="pricing-dot" />
+          <div className="array-buttons ms-4">
+            <button className="array-prev pricing-prev">
               <i className="fa-solid fa-arrow-left-long" />
             </button>
-            <button className="array-next pnbn3">
+            <button className="array-next pricing-next">
               <i className="fa-solid fa-arrow-right-long" />
             </button>
           </div>

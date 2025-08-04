@@ -1,6 +1,6 @@
 export const menuData = [
   {
-    label: "Home",
+    label: "HOME",
     href: "#",
 
   
@@ -28,33 +28,33 @@ export const menuData = [
     // ],
   },
   {
-    label: "About Us",
+    label: "ABOUT US",
     href: "#",
   },
   {
-    label: "Products",
+    label: "PRODUCTS",
     href: "#",
    
   },
   {
-    label: "Services",
+    label: "SERVICES",
     href: "#",
   
  
   },
   {
-    label: "Information",
+    label: "INFORMATION",
     href: "#",
     iconClass: "fa-regular fa-plus",
     submenu: [
-      { label: "Projects", href: "#" },
-      { label: "Clients", href: "#" },
-      { label: "Careers", href: "#" },
-      { label: "News & Updates", href: "#" },
+      { label: "PROJECTS", href: "#" },
+      { label: "CLIENTS", href: "#" },
+      { label: "CAREERS", href: "#" },
+      { label: "NEWS & UPDATES", href: "#" },
     ],
   },
   {
-    label: " Contact Us",
+    label: "CONTACT US",
     href: "#",
 
   },
@@ -62,20 +62,20 @@ export const menuData = [
 ];
 
 export const onepageLinks = [
-  { href: "#about", text: "About Us" },
-  { href: "#services", text: "Services" },
-  { href: "#projects", text: "Projects" },
-  { href: "#team", text: "Team" },
-  { href: "#blog", text: "Blog" },
-  { href: "#contact", text: "Contact" },
+  { href: "#about", text: "ABOUT US" },
+  { href: "#services", text: "SERVICES" },
+  { href: "#projects", text: "PROJECTS" },
+  { href: "#team", text: "TEAM" },
+  { href: "#blog", text: "BLOG" },
+  { href: "#contact", text: "CONTACT" },
 ];
 
 export const footerLinks = [
-  { name: "Mechanical/Rotating Equipment", href: "#" },
-  { name: "Process Equipment", href: "#" },
-  { name: "Automation & Control Systems", href: "#" },
-  { name: "Electrical", href: "#" },
-  { name: "Wellhead Systems", href: "#" },
-  { name: "Artificial Lift", href: "#" },
-  { name: "Heat Management Solution", href: "#" },
+  { name: "About Us", href: "#" },
+  { name: "Products", href: "#" },
+  { name: "Services", href: "#" },
+  { name: "Projects", href: "#" },
+  { name: "Clients", href: "#" },
+  { name: "Careers", href: "#" },
+  { name: "News & Updates", href: "#" },
 ];

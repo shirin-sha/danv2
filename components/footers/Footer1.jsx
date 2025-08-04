@@ -92,7 +92,7 @@ since 1978, delivering advanced solutions in oil, gas, power, water, and logisti
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h5>Our Products                  </h5>
+                  <h5>Quick links                  </h5>
                 </div>
                 <ul className="list-area">
                   {footerLinks.map((link, index) => (
@@ -106,33 +106,14 @@ since 1978, delivering advanced solutions in oil, gas, power, water, and logisti
                 </ul>
               </div>
             </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
-              data-wow-delay=".6s"
-            >
-              <div className="single-footer-widget">
-                <div className="widget-head">
-                  <h5>Our Services</h5>
-                </div>
-                <ul className="list-area">
-                  {services2.map((elm, i) => (
-                    <li key={i}>
-                      <Link href={`#`}>
-                        <i className="fa-solid fa-chevrons-right" />
-                        {elm.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+           
             <div
               className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
               data-wow-delay=".8s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h5>Our Addresses</h5>
+                  <h5>Contact Details</h5>
                 </div>
                 <div className="footer-content">
                   <div className="address-item">
@@ -158,7 +139,9 @@ since 1978, delivering advanced solutions in oil, gas, power, water, and logisti
         </div>
         <div className="footer-bottom">
           <p>
-            © All Copyright 2025 by <Link href={`#`}>DAN</Link>
+          © All Rights Reserved 2025 –<Link href={`#`}> DAN General Trading & Contracting Co. W.L.L. </Link>
+        |  Powered by
+          <Link href={`#`}>  Anathoth</Link>
           </p>
         </div>
       </div>

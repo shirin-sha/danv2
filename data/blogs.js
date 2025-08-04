@@ -34,7 +34,7 @@ export const newsImageItems = [
 export const newsItems2 = [
   {
     id: 4,
-    imageSrc: "/assets/img/news/04.jpg",
+    imageSrc: "/assets/img/news/img.webp",
     category: "Oil & Gas",
     date: "01 August 2025",
     title: "DAN Signs Strategic Equipment Deal With Global Supplier",
@@ -44,7 +44,7 @@ export const newsItems2 = [
   },
   {
     id: 5,
-    imageSrc: "/assets/img/news/05.jpg",
+    imageSrc: "/assets/img/news/04.webp",
     category: "Industrial Services",
     date: "27 July 2025",
     title: "Major Overhaul Project Completed at KNPC Facilities",
@@ -54,7 +54,7 @@ export const newsItems2 = [
   },
   {
     id: 6,
-    imageSrc: "/assets/img/news/06.jpg",
+    imageSrc: "/assets/img/news/05.webp",
     category: "Technology & Control",
     date: "21 July 2025",
     title: "New Automation Systems Deployed for Remote Monitoring",

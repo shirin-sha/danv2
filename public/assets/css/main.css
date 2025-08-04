@@ -2354,7 +2354,7 @@ span {
   }
 }
 .header-2 .header-right {
-  gap: 50px !important;
+  gap: 100px !important;
 }
 @media (max-width: 1399px) {
   .header-2 .header-right {
@@ -2397,6 +2397,14 @@ span {
 }
 @media (max-width: 1399px) {
   .header-2 .header-right .search-item .search-icon {
+    color: var(--header);
+  }
+}
+.header-2 .header-right .search-item .download-icon {
+  color: var(--white);
+}
+@media (max-width: 1399px) {
+  .header-2 .header-right .search-item .download-icon {
     color: var(--header);
   }
 }

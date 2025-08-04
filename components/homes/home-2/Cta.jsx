@@ -27,7 +27,7 @@ export default function Cta() {
             </div>
             <div className="cta-image wow fadeInUp" data-wow-delay=".3s">
               <Image
-                src="/assets/img/engineer-holding.png"
+                src="/assets/img/Homepage-image-5-.png"
                 width={410}
                 height={424}
                 alt="img"

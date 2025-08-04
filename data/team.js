@@ -2,8 +2,8 @@ export const teamMembers = [
   {
     id: 1,
     image: "/assets/img/team/01.jpg",
-    name: "Shikhon Islam",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     delay: "0s",
     socials: [
       {
@@ -27,8 +27,8 @@ export const teamMembers = [
   {
     id: 2,
     image: "/assets/img/team/02.jpg",
-    name: "Kawser Ahmed",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     delay: ".2s",
     socials: [
       {
@@ -52,8 +52,8 @@ export const teamMembers = [
   {
     id: 3,
     image: "/assets/img/team/03.jpg",
-    name: "Marvin McKinney",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     delay: ".4s",
     socials: [
       {
@@ -77,8 +77,8 @@ export const teamMembers = [
   {
     id: 4,
     image: "/assets/img/team/04.jpg",
-    name: "Sohel Islam",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     delay: ".6s",
     socials: [
       {
@@ -105,8 +105,8 @@ export const teamMembers2 = [
   {
     id: 5,
     image: "/assets/img/team/05.jpg",
-    name: "Shikhon Islam",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     socials: [
       {
         href: "#",
@@ -130,8 +130,8 @@ export const teamMembers2 = [
   {
     id: 6,
     image: "/assets/img/team/06.jpg",
-    name: "Jenny Wilson",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     socials: [
       {
         href: "#",
@@ -156,8 +156,8 @@ export const teamMembers2 = [
   {
     id: 7,
     image: "/assets/img/team/07.jpg",
-    name: "Kawser Ahmed",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     socials: [
       {
         href: "#",
@@ -181,8 +181,8 @@ export const teamMembers2 = [
   {
     id: 8,
     image: "/assets/img/team/08.jpg",
-    name: "Ronald Richards",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     socials: [
       {
         href: "#",
@@ -209,8 +209,8 @@ export const teamMembers3 = [
   {
     id: 9,
     image: "/assets/img/team/05.jpg",
-    name: "Shikhon Islam",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     delay: "",
     isActive: false,
     socials: [
@@ -235,8 +235,8 @@ export const teamMembers3 = [
   {
     id: 10,
     image: "/assets/img/team/06.jpg",
-    name: "Jenny Wilson",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     delay: ".2s",
     isActive: true,
     socials: [
@@ -261,8 +261,8 @@ export const teamMembers3 = [
   {
     id: 11,
     image: "/assets/img/team/07.jpg",
-    name: "Kawser Ahmed",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     delay: ".4s",
     isActive: false,
     socials: [
@@ -287,8 +287,8 @@ export const teamMembers3 = [
   {
     id: 12,
     image: "/assets/img/team/08.jpg",
-    name: "Ronald Richards",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     delay: ".6s",
     isActive: false,
     socials: [
@@ -313,8 +313,8 @@ export const teamMembers3 = [
   {
     id: 13,
     image: "/assets/img/team/09.jpg",
-    name: "Brooklyn Simmons",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     delay: "",
     isActive: false,
     socials: [
@@ -339,8 +339,8 @@ export const teamMembers3 = [
   {
     id: 14,
     image: "/assets/img/team/10.jpg",
-    name: "Jenny Wilson",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     delay: ".2s",
     isActive: false,
     socials: [
@@ -365,8 +365,8 @@ export const teamMembers3 = [
   {
     id: 15,
     image: "/assets/img/team/11.jpg",
-    name: "Ronald Richards",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     delay: ".4s",
     isActive: false,
     socials: [
@@ -391,8 +391,8 @@ export const teamMembers3 = [
   {
     id: 16,
     image: "/assets/img/team/12.jpg",
-    name: "Annette Black",
-    role: "Sr. engineer",
+    name: "Full Name",
+    role: "Designation",
     delay: ".6s",
     isActive: false,
     socials: [

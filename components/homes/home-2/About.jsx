@@ -34,7 +34,7 @@ export default function About() {
               <div className="col-lg-6">
                 <div className="about-image">
                   <Image
-                    src="/assets/img/about/03.jpg"
+                    src="/assets/img/about/Section-2-Image-1.jpg"
                     alt="img"
                     width={337}
                     height={378}
@@ -46,7 +46,7 @@ export default function About() {
                     data-wow-delay=".2s"
                   >
                     <Image
-                      src="/assets/img/about/04.jpg"
+                      src="/assets/img/about/Section-2-Image-2.jpg"
                       width={303}
                       height={323}
                       alt="img"
@@ -68,7 +68,7 @@ export default function About() {
                   </div> */}
                   <div className="bar-shape">
                     <Image
-                      src="/assets/img/about/bar.png"
+                      src="/assets/img/about/Section-2-Image-3.jpg"
                       width={40}
                       height={207}
                       alt="img"
@@ -140,7 +140,7 @@ expertise with global partnerships to serve our clients with unmatched quality a
                       Driven by safety, quality, and innovation
                     </li>
                   </ul>
-                  {/* <div className="about-author">
+                  <div className="about-author">
                     <Link
                       href={`#`}
                       className="theme-btn wow fadeInUp"
@@ -155,7 +155,7 @@ expertise with global partnerships to serve our clients with unmatched quality a
                   
                     
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>

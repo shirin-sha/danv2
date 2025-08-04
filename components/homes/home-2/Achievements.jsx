@@ -72,14 +72,14 @@ positioned us as a trusted name across oil, gas, petrochemical, and infrastructu
             >
               <div className="achivements-image">
                 <Image
-                  src="/assets/img/achivements-image.jpg"
+                  src="/assets/img/Homepage-image-6.jpg"
                   width={373}
                   height={556}
                   alt="img"
                 />
                 <div className="achivements-image-2 float-bob-y">
                   <Image
-                    src="/assets/img/achivements-image-2.jpg"
+                    src="/assets/img/Homepage-image-7.jpg"
                     width={238}
                     height={343}
                     alt="img"

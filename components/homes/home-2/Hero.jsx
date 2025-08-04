@@ -13,38 +13,23 @@ export default function Hero() {
         className="hero-section hero-2 bg-cover"
         style={{ backgroundImage: 'url("/assets/img/hero/hero-bg.jpg")' }}
       >
-        {/* <div className="hero-image wow fadeInUp" data-wow-delay=".3s">
+        <div className="hero-image wow fadeInUp" data-wow-delay=".3s">
           <Image
-            src="/assets/img/hero/hero-1.png"
+            src="/assets/img/hero/hero-1.webp"
             width={653}
             height={653}
             alt="img"
           />
-        </div> */}
-        {/* <div className="hero-image-2 wow fadeInUp" data-wow-delay=".7s">
+        </div>
+        <div className="hero-image-2 wow fadeInUp" data-wow-delay=".7s">
           <Image
-            src="/assets/img/hero/hero-2.png"
+            src="/assets/img/hero/hero-image-2-.png"
             width={653}
             height={653}
             alt="img"
           />
-          <div className="video-box">
-            <div className="video-items">
-              <a
-                onClick={() => setOpen(true)}
-                className="video-btn video-popup"
-              >
-                <i className="fas fa-play" />
-              </a>
-              <a
-                onClick={() => setOpen(true)}
-                className="video-text video-popup"
-              >
-                play now
-              </a>
-            </div>
-          </div>
-        </div> */}
+        
+        </div>
         <div className="container">
           <div className="hero-content">
             <div className="row g-4">

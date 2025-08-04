@@ -74,21 +74,13 @@ export default function Header2() {
                       </nav>
                     </div>
                   </div>
-                  <div className="header-button">
-                    <Link href={`/contact`} className="theme-btn">
-                      GAT A QUOTE <i className="fa-regular fa-arrow-right" />
-                    </Link>
-                  </div>
+                
                   <div className="search-item">
-                    <a
-                      onClick={() =>
-                        document
-                          .getElementById("searchWrap")
-                          .classList.add("active")
-                      }
-                      className="search-trigger search-icon"
+                  <a
+                      href="#"
+                      className="download-trigger download-icon search-icon"
                     >
-                      <i className="fal fa-search" />
+                      <i className="fas fa-download" />
                     </a>
                     <div className="header__hamburger d-xl-block my-auto">
                       <div

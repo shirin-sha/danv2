@@ -23,7 +23,7 @@ export default function Hero() {
         </div>
         <div className="hero-image-2 wow fadeInUp" data-wow-delay=".7s">
           <Image
-            src="/assets/img/hero/hero-image-2-.png"
+            src="/assets/img/hero/heroimg.png"
             width={653}
             height={653}
             alt="img"

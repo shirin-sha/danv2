@@ -9,6 +9,32 @@ export default function Hero() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <style jsx>{`
+        .hero-2 .hero-content h1 {
+          font-size: 85px !important;
+          line-height: 1.2 !important;
+        }
+        @media (max-width: 1399px) {
+          .hero-2 .hero-content h1 {
+            font-size: 75px !important;
+          }
+        }
+        @media (max-width: 991px) {
+          .hero-2 .hero-content h1 {
+            font-size: 65px !important;
+          }
+        }
+        @media (max-width: 767px) {
+          .hero-2 .hero-content h1 {
+            font-size: 50px !important;
+          }
+        }
+        @media (max-width: 575px) {
+          .hero-2 .hero-content h1 {
+            font-size: 38px !important;
+          }
+        }
+      `}</style>
       <section
         className="hero-section hero-2 bg-cover"
         style={{ backgroundImage: 'url("/assets/img/hero/hero-bg1.jpg")' }}

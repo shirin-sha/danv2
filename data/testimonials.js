@@ -17,7 +17,7 @@ export const testimonials2 = [
   },
   {
     id: 2,
-    shapeImgSrc: "/assets/img/testimonial/shape-right.png",
+    shapeImgSrc: "/assets/img/testimonial/shape-left-blue.png",
     text: "From rotating equipment repairs to pipeline solutions, DAN Trading always exceeds expectations. A trusted partner in every project.",
     clientImgSrc: "/assets/img/testimonial/Homepage-testim-image-7-.png",
     clientName: "Full Name",
@@ -37,7 +37,7 @@ export const testimonials2 = [
   },
   {
     id: 4,
-    shapeImgSrc: "/assets/img/testimonial/shape-right.png",
+    shapeImgSrc: "/assets/img/testimonial/shape-left-blue.png",
     text: "The team at DAN understands urgency, precision, and professionalism. Their field service crew is extremely capable and safety-focused.",
     clientImgSrc: "/assets/img/testimonial/Homepage-testim-image-7-.png",
     clientName: "Full Name",

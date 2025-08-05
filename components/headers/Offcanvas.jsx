@@ -32,9 +32,7 @@ export default function Offcanvas({ children }) {
                 </div>
               </div>
               <p className="text d-none d-xl-block">
-                Nullam dignissim, ante scelerisque the is euismod fermentum odio
-                sem semper the is erat, a feugiat leo urna eget eros. Duis
-                Aenean a imperdiet risus.
+              DAN General Trading & Contracting Co. W.L.L. is a trusted Kuwaiti industrial supplier delivering expert solutions in oil, gas, power, water, and logistics sectors.
               </p>
               <div className="mobile-menu fix mb-3 mean-container">
                 <div className="mean-bar">

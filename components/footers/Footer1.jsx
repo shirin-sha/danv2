@@ -92,7 +92,7 @@ since 1978, delivering advanced solutions in oil, gas, power, water, and logisti
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h5>Quick links                  </h5>
+                  <h5>Quick Links </h5>
                 </div>
                 <ul className="list-area">
                   {footerLinks.map((link, index) => (
@@ -106,14 +106,40 @@ since 1978, delivering advanced solutions in oil, gas, power, water, and logisti
                 </ul>
               </div>
             </div>
-           
+            <div
+              className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
+              data-wow-delay=".6s"
+            >
+              <div className="single-footer-widget">
+                <div className="widget-head">
+                  <h5>Contact Details</h5>
+                </div>
+                <div className="footer-content">
+                  <div className="address-item">
+                    <h6 style={{ color: '#fff' }}>Head Office:</h6>
+                    <p style={{ paddingTop:'15px' }}>
+                    + 965 22432553<br />
+                    + 965 22437833
+                 
+                    </p>
+                  </div>
+                  <div className="address-item">
+                    <h6 style={{ color: '#fff',paddingTop:'15px' }}>Industrial Office:</h6>
+                    <p style={{ paddingTop:'15px' }}>
+                    + 965 22287090<br/>
+                    + 965 23260250
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
               data-wow-delay=".8s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h5>Contact Details</h5>
+                  <h5>Our Addresses</h5>
                 </div>
                 <div className="footer-content">
                   <div className="address-item">
@@ -138,11 +164,12 @@ since 1978, delivering advanced solutions in oil, gas, power, water, and logisti
           </div>
         </div>
         <div className="footer-bottom">
-          <p>
+        <p>
           © All Rights Reserved 2025 –<Link href={`#`}> DAN General Trading & Contracting Co. W.L.L. </Link>
         |  Powered by
           <Link href={`#`}>  Anathoth</Link>
           </p>
+
         </div>
       </div>
     </footer>

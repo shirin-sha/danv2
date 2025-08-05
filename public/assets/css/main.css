@@ -3853,7 +3853,7 @@ span {
   }
 }
 .hero-2 .hero-content h1 {
-  font-size: 90px;
+  font-size: 85px;
   color: var(--white);
   letter-spacing: -2.7px;
   text-transform: uppercase;
@@ -3861,22 +3861,22 @@ span {
 }
 @media (max-width: 1399px) {
   .hero-2 .hero-content h1 {
-    font-size: 80px;
+    font-size: 75px;
   }
 }
 @media (max-width: 991px) {
   .hero-2 .hero-content h1 {
-    font-size: 70px;
+    font-size: 65px;
   }
 }
 @media (max-width: 767px) {
   .hero-2 .hero-content h1 {
-    font-size: 55px;
+    font-size: 50px;
   }
 }
 @media (max-width: 575px) {
   .hero-2 .hero-content h1 {
-    font-size: 42px;
+    font-size: 38px;
   }
 }
 .hero-2 .hero-content h1 b {

@@ -92,7 +92,7 @@ export default function About() {
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
                   With over 45 years of proven performance, DAN Trading provides reliable solutions and
 services across Kuwait’s Oil, Gas, Power, Water, and Logistics sectors. We combine local
-expertise with global partnerships to serve our clients with unmatched quality and integrity.
+expertise with global partnerships.
                   </p>
                   <div className="row g-4 mt-3">
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
@@ -106,7 +106,7 @@ expertise with global partnerships to serve our clients with unmatched quality a
                           />
                         </div>
                         <h5 className="splt-txt wow">
-                          <AnimatedText text="Industrial Supply & Support" />
+                          <AnimatedText text="Supply & Support" />
                         </h5>
                       </div>
                     </div>

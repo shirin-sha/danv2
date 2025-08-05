@@ -104,7 +104,7 @@ export const teamMembers = [
 export const teamMembers2 = [
   {
     id: 5,
-    image: "/assets/img/team/05.jpg",
+    image: "/assets/img/team/teamimg.jpg",
     name: "Full Name",
     role: "Designation",
     socials: [
@@ -129,7 +129,7 @@ export const teamMembers2 = [
   },
   {
     id: 6,
-    image: "/assets/img/team/06.jpg",
+    image: "/assets/img/team/teamimg.jpg",
     name: "Full Name",
     role: "Designation",
     socials: [
@@ -155,7 +155,7 @@ export const teamMembers2 = [
   },
   {
     id: 7,
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/teamimg.jpg",
     name: "Full Name",
     role: "Designation",
     socials: [
@@ -180,7 +180,7 @@ export const teamMembers2 = [
   },
   {
     id: 8,
-    image: "/assets/img/team/08.jpg",
+    image: "/assets/img/team/teamimg.jpg",
     name: "Full Name",
     role: "Designation",
     socials: [

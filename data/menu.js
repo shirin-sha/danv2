@@ -71,7 +71,7 @@ export const onepageLinks = [
 ];
 
 export const footerLinks = [
-  { name: "About Us", href: "#" },
+  // { name: "About Us", href: "#" },
   { name: "Products", href: "#" },
   { name: "Services", href: "#" },
   { name: "Projects", href: "#" },

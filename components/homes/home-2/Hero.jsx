@@ -11,7 +11,7 @@ export default function Hero() {
     <>
       <section
         className="hero-section hero-2 bg-cover"
-        style={{ backgroundImage: 'url("/assets/img/hero/hero-bg.jpg")' }}
+        style={{ backgroundImage: 'url("/assets/img/hero/hero-bg1.jpg")' }}
       >
         <div className="hero-image wow fadeInUp" data-wow-delay=".3s">
           <Image
@@ -35,9 +35,9 @@ export default function Hero() {
             <div className="row g-4">
               <div className="col-xxl-8 wow fadeInUp" data-wow-delay=".5s">
                 <h1 className="splt-txt wow">
-                  <AnimatedText text="PARTNERING IN INDUSTRY, POWERING PROGRESS" />{" "}
+                  <AnimatedText text="PARTNERING IN INDUSTRY, POWERING" />{" "}
                   <b>
-                    <AnimatedText text="Reality" />{" "}
+                    <AnimatedText text="PROGRESS" />{" "}
                   </b>
                 </h1>
               </div>
@@ -45,9 +45,7 @@ export default function Hero() {
           </div>
           <div className="hero-text">
             <p className="wow fadeInUp" data-wow-delay=".3s">
-            With decades of proven expertise, DAN General Trading stands as a reliable and resourceful
-partner to leading industries across Kuwait and the region. We combine global partnerships
-with local strength to deliver smart, sustainable, and future-ready industrial solutions.
+            With decades of proven expertise, DAN General Trading stands as a reliable and resourceful partner to leading industries across Kuwait and the region.
             </p>
             <Link
               href={`#`}

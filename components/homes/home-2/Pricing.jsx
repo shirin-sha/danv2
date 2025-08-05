@@ -74,14 +74,7 @@ export default function Pricing({ shadow = false }) {
                     alt="Product"
                   />
                 </div>
-                <div className="bar-shape">
-                  <Image
-                    src="/assets/img/service/bar.png"
-                    width={290}
-                    height={118}
-                    alt="Bar Shape"
-                  />
-                </div>
+              
                 <div className="content">
                   <h3>
                     <Link href={`#`}>

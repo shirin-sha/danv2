@@ -13,7 +13,7 @@ export default function Cta() {
           <div className="cta-banner-wrapper-2">
             <div className="cta-content">
               <h2 className="splt-txt wow">
-                <AnimatedText text="Have Questions or Need Technical Guidance?" /> <br />
+                <AnimatedText text="Have Questions or Guidance?" /> <br />
                 <AnimatedText text="Let’s start the conversation today." />
               </h2>
               <Link
@@ -27,7 +27,7 @@ export default function Cta() {
             </div>
             <div className="cta-image wow fadeInUp" data-wow-delay=".3s">
               <Image
-                src="/assets/img/Homepage-image-5-.png"
+                src="/assets/img/engineer-holding.webp"
                 width={410}
                 height={424}
                 alt="img"

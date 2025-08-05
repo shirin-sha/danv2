@@ -20,8 +20,8 @@ export default function Achievements() {
                     <i className="fa-regular fa-arrow-right-long" />
                   </h6>
                   <h2 className="splt-txt wow">
-                    <AnimatedText text="Building Trust. Powering Industries." /> <br />
-                    <AnimatedText text=" Delivering Results." />
+                    <AnimatedText text="Building Trust." /> <br />
+                    <AnimatedText text=" Delivering Values & Results." />
                   </h2>
                 </div>
                 <p className="mt-3 mt-md-0 wow fadeInUp">

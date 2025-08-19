@@ -412,11 +412,11 @@ export default function page() {
                   <p>
                     This standard requires adherence to all laws, regulations and normal ethical practices. We expect all employees to act with the highest integrity.
                   </p>
-                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
       </section>
 
       <Highlights />

@@ -21,14 +21,7 @@ export default function Testimonials() {
   };
   return (
     <section className="testimonial-section fix section-padding section-bg">
-      <div className="arrow-shape float-bob-y">
-        <Image
-          src="/assets/img/testimonial/arrow-shape.png"
-          width={202}
-          height={291}
-          alt="img"
-        />
-      </div>
+   
       <div className="building-shape float-bob-x">
         <Image
           src="/assets/img/testimonial/building-shape.png"
@@ -39,7 +32,7 @@ export default function Testimonials() {
       </div>
       <div className="testimonial-image">
         <Image
-          src="/assets/img/testimonial/testimonial-image.jpg"
+          src="/assets/img/testimonial/testimonial-image.webp"
           width={745}
           height={708}
           alt="img"
@@ -76,8 +69,8 @@ export default function Testimonials() {
                             viewBox="0 0 32 32"
                             fill="none"
                           >
-                            <path d="M0 4V28L12 16V4H0Z" fill="#F55B1F" />
-                            <path d="M20 4V28L32 16V4H20Z" fill="#F55B1F" />
+                            <path d="M0 4V28L12 16V4H0Z" fill="#0198F1" />
+                            <path d="M20 4V28L32 16V4H20Z" fill="#0198F1" />
                           </svg>
                           <h4>{text}</h4>
                         </div>
@@ -91,24 +84,25 @@ export default function Testimonials() {
                       <Image
                         src="/assets/img/testimonial/Homepage-testim-image-7-.png"
                         alt="img"
-                        width={81}
-                        height={89}
+                        width={100}
+                        height={100}
+                     
                       />
                     </div>
                     <div className="client-img">
                       <Image
                         src="/assets/img/testimonial/Homepage-testim-image-7-.png"
                         alt="img"
-                        width={81}
-                        height={89}
+                        width={100}
+                        height={100}
                       />
                     </div>
                     <div className="client-img">
                       <Image
                         src="/assets/img/testimonial/Homepage-testim-image-7-.png"
                         alt="img"
-                        width={81}
-                        height={89}
+                        width={100}
+                        height={100}
                       />
                     </div>
                   </div>

@@ -1,7 +1,7 @@
 export const serviceItems = [
   {
     id: 1,
-    imgSrc: "/assets/img/service/01.jpg",
+    imgSrc: "/assets/img/product/pipes/pipeslide4.jpg",
     iconSrc: "/assets/img/icon/01.svg",
     number: "01",
     title: "Services for Rotating Equipment",
@@ -9,7 +9,7 @@ export const serviceItems = [
   },
   {
     id: 2,
-    imgSrc: "/assets/img/service/02.jpg",
+    imgSrc: "/assets/img/product/pipes/pipeslide5.jpg",
     iconSrc: "/assets/img/icon/02.svg",
     number: "02",
     title: "Overhauling and Repair for All Brands",
@@ -17,7 +17,7 @@ export const serviceItems = [
   },
   {
     id: 3,
-    imgSrc: "/assets/img/service/03.jpg",
+    imgSrc: "/assets/img/product/pipes/pipeslide7.jpg",
     iconSrc: "/assets/img/icon/03.svg",
     number: "03",
     title: "Tray Maintenance Services",
@@ -25,7 +25,7 @@ export const serviceItems = [
   },
   {
     id: 4,
-    imgSrc: "/assets/img/service/04.jpg",
+    imgSrc: "/assets/img/product/pipes/pipeslide10.jpg",
     iconSrc: "/assets/img/icon/04.svg",
     number: "04",
     title: "Sulphur Handling Services",
@@ -33,7 +33,7 @@ export const serviceItems = [
   },
   {
     id: 5,
-    imgSrc: "/assets/img/service/01.jpg",
+    imgSrc: "/assets/img/product/pipes/pipeslide11.jpg",
     iconSrc: "/assets/img/icon/01.svg",
     number: "01",
     title: "Casing Running and Fishing Services",
@@ -41,7 +41,7 @@ export const serviceItems = [
   },
   {
     id: 6,
-    imgSrc: "/assets/img/service/02.jpg",
+    imgSrc: "/assets/img/product/pipes/pipeslide13.jpg",
     iconSrc: "/assets/img/icon/02.svg",
     number: "02",
     title: "Pipe & Tubular Coating/Lining",
@@ -49,7 +49,7 @@ export const serviceItems = [
   },
   {
     id: 7,
-    imgSrc: "/assets/img/service/03.jpg",
+    imgSrc: "/assets/img/product/pipes/pipeslide14.jpg",
     iconSrc: "/assets/img/icon/03.svg",
     number: "03",
     title: "Airborne Gravity & Magnetic Survey",
@@ -57,7 +57,7 @@ export const serviceItems = [
   },
   {
     id: 8,
-    imgSrc: "/assets/img/service/04.jpg",
+    imgSrc: "/assets/img/product/pipes/pipeslide17.jpg",
     iconSrc: "/assets/img/icon/04.svg",
     number: "04",
     title: "Welltesting Service",
@@ -65,7 +65,7 @@ export const serviceItems = [
   },
   {
     id: 9,
-    imgSrc: "/assets/img/service/04.jpg",
+    imgSrc: "/assets/img/product/pipes/pipeslide17.jpg",
     iconSrc: "/assets/img/icon/04.svg",
     number: "05",
     title: "Enhanced Oil Recovery Systems",
@@ -159,7 +159,7 @@ export const serviceItems2 = [
 export const services = [
   {
     id: 1,
-    image: "/assets/img/service/01.jpg",
+    image: "/assets/img/product/pipes/pipeslide4.jpg",
     icon: "/assets/img/icon/03.svg",
     number: "01",
     title: "Services for Rotating Equipment",
@@ -168,7 +168,7 @@ export const services = [
   },
   {
     id: 2,
-    image: "/assets/img/service/02.jpg",
+    image: "/assets/img/product/pipes/pipeslide5.jpg",
     icon: "/assets/img/icon/02.svg",
     number: "02",
     title: "Overhauling of Pumps & Compressors",
@@ -177,7 +177,7 @@ export const services = [
   },
   {
     id: 3,
-    image: "/assets/img/service/03.jpg",
+    image: "/assets/img/product/pipes/pipeslide7.jpg",
     icon: "/assets/img/icon/03.svg",
     number: "03",
     title: "Overhauling and Repair for All Brands",
@@ -186,7 +186,7 @@ export const services = [
   },
   {
     id: 4,
-    image: "/assets/img/service/06.jpg",
+    image: "/assets/img/product/pipes/pipeslide10.jpg",
     icon: "/assets/img/icon/07.svg",
     number: "04",
     title: "Tray Maintenance Services",
@@ -195,7 +195,7 @@ export const services = [
   },
   {
     id: 5,
-    image: "/assets/img/service/07.jpg",
+    image: "/assets/img/product/pipes/pipeslide11.jpg",
     icon: "/assets/img/icon/08.svg",
     number: "05",
     title: "Sulphur Handling Services",
@@ -204,7 +204,7 @@ export const services = [
   },
   {
     id: 6,
-    image: "/assets/img/service/08.jpg",
+    image: "/assets/img/product/pipes/pipeslide13.jpg",
     icon: "/assets/img/icon/09.svg",
     number: "06",
     title: "Casing Running and Fishing Services",

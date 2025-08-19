@@ -29,7 +29,7 @@ export default function Products() {
                 <div className="service-thumb">
                   <Image
                     src={service.image}
-                    width={346}
+                    width={4000}
                     height={236}
                     alt="img"
                   />
@@ -51,7 +51,7 @@ export default function Products() {
                   </h3>
                   <p>{service.description}</p>
                   <Link
-                    href={`/service-details/${service.id}`}
+                    href={`#`}
                     className="link-btn"
                   >
                     Explore More <i className="fa-solid fa-arrow-right" />

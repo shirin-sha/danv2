@@ -99,7 +99,7 @@ export const products = [
 export const products2 = [
   {
     id: 1,
-    image: "/assets/img/service/03.jpg",
+    image: "/assets/img/product/pipes/pipeslide4.jpg",
     icon: "/assets/img/icon/03.svg",
     number: "01",
     title: "Pipes, Pumps & Valves",
@@ -108,7 +108,7 @@ export const products2 = [
   },
   {
     id: 2,
-    image: "/assets/img/service/02.jpg",
+    image: "/assets/img/product/pipes/pipeslide5.jpg",
     icon: "/assets/img/icon/02.svg",
     number: "02",
     title: "Mechanical / Rotating Equipment",
@@ -117,7 +117,7 @@ export const products2 = [
   },
   {
     id: 3,
-    image: "/assets/img/service/03.jpg",
+    image: "/assets/img/product/pipes/pipeslide7.jpg",
     icon: "/assets/img/icon/03.svg",
     number: "03",
     title: "Process Equipment",
@@ -126,7 +126,7 @@ export const products2 = [
   },
   {
     id: 4,
-    image: "/assets/img/service/06.jpg",
+    image: "/assets/img/product/pipes/pipeslide10.jpg",
     icon: "/assets/img/icon/07.svg",
     number: "04",
     title: "Automation & Control Systems",
@@ -135,7 +135,7 @@ export const products2 = [
   },
   {
     id: 5,
-    image: "/assets/img/service/07.jpg",
+    image: "/assets/img/product/pipes/pipeslide11.jpg",
     icon: "/assets/img/icon/08.svg",
     number: "05",
     title: " Electrical",
@@ -144,7 +144,7 @@ export const products2 = [
   },
   {
     id: 6,
-    image: "/assets/img/service/08.jpg",
+    image: "/assets/img/product/pipes/pipeslide13.jpg",
     icon: "/assets/img/icon/09.svg",
     number: "06",
     title: "Wellhead Systems",
@@ -153,7 +153,7 @@ export const products2 = [
   },
   {
     id: 6,
-    image: "/assets/img/service/08.jpg",
+    image: "/assets/img/product/pipes/pipeslide14.jpg",
     icon: "/assets/img/icon/09.svg",
     number: "06",
     title: "Artificial Lift Systems",
@@ -162,7 +162,7 @@ export const products2 = [
   },
   {
     id: 6,
-    image: "/assets/img/service/08.jpg",
+    image: "/assets/img/product/pipes/pipeslide17.jpg",
     icon: "/assets/img/icon/09.svg",
     number: "06",
     title: "Heat Management Solutions",

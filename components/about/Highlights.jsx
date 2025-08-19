@@ -10,9 +10,10 @@ export default function Highlights() {
           <div className="bg-shape">
             <Image
               src="/assets/img/achivements-shape.png"
-              width={674}
+              width={750}
               height={470}
               alt="img"
+              style={{ filter: 'hue-rotate(180deg) brightness(1.2)' }}
             />
           </div>
           <div className="row g-4">
@@ -20,16 +21,16 @@ export default function Highlights() {
               <div className="achivements-content">
                 <div className="section-title">
                   <h6 className="wow fadeInUp">
-                    <i className="fa-regular fa-arrow-left-long"></i>ACHIVEMENTS
+                    <i className="fa-regular fa-arrow-left-long"></i>Proven Industrial Legacy
                     <i className="fa-regular fa-arrow-right-long"></i>
                   </h6>
                   <h2 className="splt-txt wow">
-                    <AnimatedText text="Driven by Experience, " /> <br />
-                    <AnimatedText text="Excellence, and Integrity," />
+                    <AnimatedText text="Driven by Experience," /> <br />
+                    <AnimatedText text="Excellence, & Integrity" />
                   </h2>
                 </div>
                 <Link
-                  href={`/contact`}
+                  href={`/project`}
                   className="theme-btn bg-white mt-3 mt-md-0 wow fadeInUp"
                   data-wow-delay=".4s"
                 >
@@ -101,6 +102,7 @@ export default function Highlights() {
           </div>
         </div>
       </div>
+    
     </section>
   );
 }

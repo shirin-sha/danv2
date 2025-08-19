@@ -5,22 +5,7 @@ import AnimatedText from "../common/AnimatedText";
 export default function Team() {
   return (
     <section className="team-section section-padding">
-      <div className="shape-1 float-bob-y">
-        <Image
-          src="/assets/img/team/shape-1.png"
-          width={161}
-          height={250}
-          alt="img"
-        />
-      </div>
-      <div className="shape-2">
-        <Image
-          src="/assets/img/team/shape-2.png"
-          width={352}
-          height={428}
-          alt="img"
-        />
-      </div>
+   
       <div className="container">
         <div className="section-title text-center">
           <h6 className="wow fadeInUp">

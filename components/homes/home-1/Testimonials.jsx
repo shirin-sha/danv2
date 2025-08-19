@@ -89,7 +89,7 @@ export default function Testimonials() {
                   <div className="client-image-area">
                     <div className="client-img">
                       <Image
-                        src="/assets/img/testimonial/client-1.png"
+                        src="/assets/img/testimonial/Homepage-testim-image-7-.png"
                         alt="img"
                         width={81}
                         height={89}
@@ -97,7 +97,7 @@ export default function Testimonials() {
                     </div>
                     <div className="client-img">
                       <Image
-                        src="/assets/img/testimonial/client-2.png"
+                        src="/assets/img/testimonial/Homepage-testim-image-7-.png"
                         alt="img"
                         width={81}
                         height={89}
@@ -105,7 +105,7 @@ export default function Testimonials() {
                     </div>
                     <div className="client-img">
                       <Image
-                        src="/assets/img/testimonial/client-3.png"
+                        src="/assets/img/testimonial/Homepage-testim-image-7-.png"
                         alt="img"
                         width={81}
                         height={89}

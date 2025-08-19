@@ -158,57 +158,57 @@ export const serviceItems2 = [
 
 export const services = [
   {
-    id: 17,
+    id: 1,
     image: "/assets/img/service/01.jpg",
-    icon: "/assets/img/icon/01.svg",
+    icon: "/assets/img/icon/03.svg",
     number: "01",
-    title: "Building Construction",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    title: "Services for Rotating Equipment",
+    description: "Maintenance and servicing for critical motors, turbines, and rotating systems.",
     delay: ".2s",
   },
   {
-    id: 18,
+    id: 2,
     image: "/assets/img/service/02.jpg",
     icon: "/assets/img/icon/02.svg",
     number: "02",
-    title: "Architecture Design",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    title: "Overhauling of Pumps & Compressors",
+    description: "Complete dismantling, repair, and testing for pumps and compressor units.",
     delay: ".4s",
   },
   {
-    id: 19,
+    id: 3,
     image: "/assets/img/service/03.jpg",
     icon: "/assets/img/icon/03.svg",
     number: "03",
-    title: "Building Renovation",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    title: "Overhauling and Repair for All Brands",
+    description: "Multi-brand support for industrial equipment overhaul and performance restoration.",
     delay: ".6s",
   },
   {
-    id: 20,
+    id: 4,
     image: "/assets/img/service/06.jpg",
     icon: "/assets/img/icon/07.svg",
     number: "04",
-    title: "Smart Technology",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    title: "Tray Maintenance Services",
+    description: "Replacement and alignment of trays in process towers and columns.",
     delay: ".2s",
   },
   {
-    id: 21,
+    id: 5,
     image: "/assets/img/service/07.jpg",
     icon: "/assets/img/icon/08.svg",
     number: "05",
-    title: "Best Engineering",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    title: "Sulphur Handling Services",
+    description: "Safe handling, transport, and processing of sulphur for industrial needs.",
     delay: ".4s",
   },
   {
-    id: 22,
+    id: 6,
     image: "/assets/img/service/08.jpg",
     icon: "/assets/img/icon/09.svg",
     number: "06",
-    title: "Chemical Research",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    title: "Casing Running and Fishing Services",
+    description: "Precision tubular operations including casing installation and fishing tools.",
     delay: ".6s",
   },
 ];
@@ -216,7 +216,7 @@ export const services = [
 export const services2 = [
   {
     id: 23,
-    title: " Services for rotating equipment",
+    title: "Services for Rotating Equipment",
   },
   {
     id: 24,
@@ -224,15 +224,15 @@ export const services2 = [
   },
   {
     id: 25,
-    title: "Overhauling and repair for all brands",
+    title: "Overhauling and Repair for All Brands",
   },
   {
     id: 26,
-    title: "Tray maintenance services",
+    title: "Tray Maintenance Services",
   },
   {
     id: 27,
-    title: "Sulpher Handling Services",
+    title: "Sulphur Handling Services",
   },
   {
     id: 28,
@@ -240,7 +240,7 @@ export const services2 = [
   },
   {
     id: 29,
-    title: "Pipe & Tubular coating/Lining",
+    title: "Pipe & Tubular Coating/Lining",
   },
   {
     id: 30,
@@ -252,7 +252,7 @@ export const services2 = [
   },
   {
     id: 32,
-    title: "Enhancement Oil Recovery System",
+    title: "Enhanced Oil Recovery System",
   },
 ];
 

@@ -64,7 +64,7 @@ export default function Header2() {
                     </Link>
                   </div>
                 </div>
-                <div className="header-right d-flex justify-content-end align-items-center">
+                <div className="header-center flex-grow-1 d-flex justify-content-center align-items-center">
                   <div className="mean__menu-wrapper">
                     <div className="main-menu">
                       <nav id="mobile-menu">
@@ -74,9 +74,10 @@ export default function Header2() {
                       </nav>
                     </div>
                   </div>
-                
+                </div>
+                <div className="header-right d-flex align-items-center">
                   <div className="search-item">
-                  <a
+                    <a
                       href="#"
                       className="download-trigger download-icon search-icon"
                     >

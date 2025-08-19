@@ -2,7 +2,7 @@ import { achievements } from "@/data/facts";
 import Link from "next/link";
 import Image from "next/image";
 import AnimatedText from "../common/AnimatedText";
-export default function Achievments() {
+export default function Highlights() {
   return (
     <section className="achivements-section fix">
       <div className="container">
@@ -24,8 +24,8 @@ export default function Achievments() {
                     <i className="fa-regular fa-arrow-right-long"></i>
                   </h6>
                   <h2 className="splt-txt wow">
-                    <AnimatedText text="Industrial Power," /> <br />
-                    <AnimatedText text="Worldwide Influence" />
+                    <AnimatedText text="Driven by Experience, " /> <br />
+                    <AnimatedText text="Excellence, and Integrity," />
                   </h2>
                 </div>
                 <Link
@@ -33,7 +33,7 @@ export default function Achievments() {
                   className="theme-btn bg-white mt-3 mt-md-0 wow fadeInUp"
                   data-wow-delay=".4s"
                 >
-                  MAKE AN APPOINTMENT
+                Explore Our Projects 
                   <i className="fa-regular fa-arrow-right"></i>
                 </Link>
               </div>
@@ -65,7 +65,7 @@ export default function Achievments() {
                       </div>
                       <div className="content">
                         <h2>
-                          <span className="count">{elm.count}</span>k+
+                          <span className="count">{elm.count}</span>+
                         </h2>
                         <p>{elm.description}</p>
                       </div>
@@ -89,7 +89,7 @@ export default function Achievments() {
                       </div>
                       <div className="content">
                         <h2>
-                          <span className="count">{elm.count}</span>k+
+                          <span className="count">{elm.count}</span>+
                         </h2>
                         <p>{elm.description}</p>
                       </div>
@@ -100,9 +100,6 @@ export default function Achievments() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="man-image float-bob-x">
-        <Image src="/assets/img/man.png" width={343} height={413} alt="img" />
       </div>
     </section>
   );

@@ -2650,6 +2650,7 @@
 .fa-check-circle:before,
 .fa-circle-check:before {
   content: "\f058";
+  color:var(--theme)
 }
 .fa-chevron-circle-down:before,
 .fa-circle-chevron-down:before {
@@ -7518,13 +7519,16 @@
 .fa-quote-left-alt:before,
 .fa-quote-left:before {
   content: "\f10d";
+  color: var(--theme);
 }
 .fa-quote-right-alt:before,
 .fa-quote-right:before {
   content: "\f10e";
+  color: var(--theme);
 }
 .fa-quotes:before {
   content: "\e234";
+  
 }
 .fa-r:before {
   content: "\52";

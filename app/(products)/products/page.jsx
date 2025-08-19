@@ -1,11 +1,9 @@
-import Brands from "@/components/common/Brands";
 import Footer1 from "@/components/footers/Footer1";
 import Header2 from "@/components/headers/Header2";
-import Projects from "@/components/project/Projects";
-import Image from "next/image";
+import Products from "@/components/products/Products";
 import Link from "next/link";
 export const metadata = {
-  title: "Project || Xbuild - Constriction nextjs Template",
+  title: "Products || Xbuild - Constriction nextjs Template",
   description: "Xbuild - Constriction nextjs Template",
 };
 
@@ -17,13 +15,13 @@ export default function page() {
         className="breadcrumb-wrapper bg-cover"
         style={{ backgroundImage: 'url("/assets/img/breadcrumb-bg.jpg")' }}
       >
-     
+        
         <div className="container">
           <div className="breadcrumb-wrapper-items">
             <div className="page-heading">
               <div className="breadcrumb-sub-title">
                 <h1 className="wow fadeInUp" data-wow-delay=".3s">
-                  Project
+                  Products
                 </h1>
               </div>
               <ul
@@ -36,19 +34,18 @@ export default function page() {
                 <li>
                   <i className="fa-sharp fa-solid fa-slash-forward" />
                 </li>
-                <li>Project</li>
+                <li>Products</li>
               </ul>
             </div>
             <div className="breadcrumb-image">
+              
             </div>
           </div>
         </div>
       </div>
-      <Projects />
-      <div className="brand-section fix section-padding pt-0">
-        <Brands />
-      </div>
+      <Products />
+      
       <Footer1 />
     </>
   );
-}
+} 

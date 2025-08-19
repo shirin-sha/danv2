@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
+import { services2 } from "@/data/services";
 import { serviceDetails } from "@/data/serviceDetails";
 import { useParams } from "next/navigation";
 export default function ServiceDetails() {
@@ -110,7 +111,7 @@ export default function ServiceDetails() {
                   </div>
                   <div className="news-widget-categories">
                     <ul>
-                      {serviceDetails?.map((elm, i) => (
+                      {services2?.map((elm, i) => (
                         <li key={i}>
                           <Link href={`/service-details/${elm.id}`}>
                             {elm.title}

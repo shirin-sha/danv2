@@ -126,17 +126,17 @@ expertise with global partnerships.
                       </div>
                     </div>
                   </div>
-                  <ul className="list-items wow fadeInUp" data-wow-delay=".2s">
+                  <ul className="list-items mt-3 wow fadeInUp" data-wow-delay=".2s">
                     <li>
-                      <i className="fa-solid fa-circle-check" />
+                      <i className="fa-solid fa-circle-check check-icon" />
                       Trusted by leading government & private sector clients
                     </li>
                     <li>
-                      <i className="fa-solid fa-circle-check" />
+                      <i className="fa-solid fa-circle-check check-icon" />
                       Delivering end-to-end industrial solutions
                     </li>
                     <li>
-                      <i className="fa-solid fa-circle-check" />
+                      <i className="fa-solid fa-circle-check check-icon" />
                       Driven by safety, quality, and innovation
                     </li>
                   </ul>

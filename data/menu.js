@@ -1,7 +1,7 @@
 export const menuData = [
   {
     label: "HOME",
-    href: "#",
+    href: "/",
 
   
     // submenu: [
@@ -29,16 +29,16 @@ export const menuData = [
   },
   {
     label: "ABOUT US",
-    href: "#",
+    href: "/about",
   },
   {
     label: "PRODUCTS",
-    href: "#",
+    href: "/products",
    
   },
   {
     label: "SERVICES",
-    href: "#",
+    href: "/service",
   
  
   },
@@ -47,7 +47,7 @@ export const menuData = [
     href: "#",
     iconClass: "fa-regular fa-plus",
     submenu: [
-      { label: "PROJECTS", href: "#" },
+      { label: "PROJECTS", href: "/project" },
       { label: "CLIENTS", href: "#" },
       { label: "CAREERS", href: "#" },
       { label: "NEWS & UPDATES", href: "#" },
@@ -55,7 +55,7 @@ export const menuData = [
   },
   {
     label: "CONTACT US",
-    href: "#",
+    href: "/contact",
 
   },
  

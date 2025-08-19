@@ -26,15 +26,22 @@ export default function ContactInfo() {
                   src="/assets/img/icon/18.svg"
                   width={50}
                   height={50}
-                  alt="img"
+                  alt="Head Office Icon"
                 />
               </div>
               <div className="content">
-                <h3>Our Address</h3>
+                <h3>Head Office</h3>
                 <p>
-                  2715 Ash Dr. San Jose,
+                  Al Mutawa Building, 8th floor,
                   <br />
-                  South Dakota 83475
+                  Behind/Next to Public Authority for Minor Affairs (PAMA), Area 30,
+                  <br />
+                  Al-Sharq, Kuwait
+                </p>
+                <p>
+                  <a href="tel:+96522432553">+ 965 22432553</a>
+                  <br />
+                  <a href="tel:+96522437833">+ 965 22437833</a>
                 </p>
               </div>
             </div>
@@ -46,18 +53,25 @@ export default function ContactInfo() {
             <div className="contact-box-items">
               <div className="icon">
                 <Image
-                  src="/assets/img/icon/19.svg"
-                  width={46}
-                  height={28}
-                  alt="img"
+                  src="/assets/img/icon/18.svg"
+                  width={50}
+                  height={50}
+                  alt="Industrial Office Icon"
                 />
               </div>
               <div className="content">
-                <h3>Email Address</h3>
+                <h3>Industrial Office</h3>
                 <p>
-                  Mobile :<a href="tel:984756123695">9847 5612 3695</a> <br />
-                  Email :
-                  <a href="mailto:example@gmail.com">example@gmail.com</a>
+                  Shuaiba Industrial Area,
+                  <br />
+                  Block- 8,
+                  <br />
+                  Kuwait
+                </p>
+                <p>
+                  <a href="tel:+96522287090">+ 965 22287090</a>
+                  <br />
+                  <a href="tel:+96523260250">+965 23260250</a>
                 </p>
               </div>
             </div>
@@ -69,17 +83,20 @@ export default function ContactInfo() {
             <div className="contact-box-items">
               <div className="icon">
                 <Image
-                  src="/assets/img/icon/20.svg"
-                  width={50}
-                  height={50}
-                  alt="img"
+                  src="/assets/img/icon/19.svg"
+                  width={46}
+                  height={28}
+                  alt="Email Icon"
                 />
               </div>
               <div className="content">
-                <h3>Hours of Operation</h3>
+                <h3>Email Addresses</h3>
                 <p>
-                  Monday-Saturday : 8:00 - <br />
-                  9:00 Sunday : Closed
+                  For business information/cooperation: <a href="mailto:ayman@dantrading.com">ayman@dantrading.com</a>
+                  <br />
+                  For technical inquiries/information: <a href="mailto:asaleh@dantrading.com">asaleh@dantrading.com</a>
+                  <br />
+                  For any further information: <a href="mailto:dan@dantrading.com">dan@dantrading.com</a>
                 </p>
               </div>
             </div>

@@ -1010,7 +1010,7 @@ span {
   margin-bottom: 5px;
 }
 .contact-box-items .content p a {
-  color: var(--text);
+  color: var(--theme);
 }
 
 .contact-form-items {

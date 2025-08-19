@@ -1,25 +1,25 @@
 import React from "react";
 import Pagination from "../common/Pagination";
-import { services } from "@/data/services";
+import { products2 } from "@/data/products";
 import Link from "next/link";
 import Image from "next/image";
 import AnimatedText from "@/components/common/AnimatedText";
-export default function Services() {
+export default function Products() {
   return (
     <section className="service-section fix section-padding">
       <div className="container">
         <div className="section-title text-center">
           <h6 className="wow fadeInUp">
-            <i className="fa-regular fa-arrow-left-long"></i>Our Services
+            <i className="fa-regular fa-arrow-left-long"></i>Our Product Categories
             <i className="fa-regular fa-arrow-right-long"></i>
           </h6>
           <h2 className="splt-txt wow">
-            <AnimatedText text="Reliable Industrial Services " /> <br />
-            <AnimatedText text="Backed by Decades of Expertise" />
+            <AnimatedText text="Supplying Trusted Industrial Products for Energy," /> <br />
+            <AnimatedText text=" Utility & Infrastructure Sectors " />
           </h2>
         </div>
         <div className="row">
-          {services.map((service) => (
+          {products2.map((service) => (
             <div
               key={service.id}
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"

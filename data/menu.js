@@ -48,9 +48,9 @@ export const menuData = [
     iconClass: "fa-regular fa-plus",
     submenu: [
       { label: "PROJECTS", href: "/project" },
-      { label: "CLIENTS", href: "#" },
-      { label: "CAREERS", href: "#" },
-      { label: "NEWS & UPDATES", href: "#" },
+      { label: "CLIENTS", href: "/clients" },
+      { label: "CAREERS", href: "/careers" },
+      { label: "NEWS & UPDATES", href: "/news-grid" },
     ],
   },
   {
@@ -72,10 +72,10 @@ export const onepageLinks = [
 
 export const footerLinks = [
   // { name: "About Us", href: "#" },
-  { name: "Products", href: "#" },
-  { name: "Services", href: "#" },
-  { name: "Projects", href: "#" },
-  { name: "Clients", href: "#" },
-  { name: "Careers", href: "#" },
-  { name: "News & Updates", href: "#" },
+  { name: "Products", href: "/products" },
+  { name: "Services", href: "/service" },
+  { name: "Projects", href: "/project" },
+  { name: "Clients", href: "/clients" },
+  { name: "Careers", href: "/careers" },
+  { name: "News & Updates", href: "/news-grid" },
 ];

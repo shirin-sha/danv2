@@ -99,7 +99,7 @@ export const products = [
 export const products2 = [
   {
     id: 1,
-    image: "/assets/img/product/pipes/pipeslide4.jpg",
+    image: "/assets/img/product/thumbnails/Thumbnail-Pipes,Pumps & Valves.jpg",
     icon: "/assets/img/icon/03.svg",
     number: "01",
     title: "Pipes, Pumps & Valves",
@@ -108,7 +108,7 @@ export const products2 = [
   },
   {
     id: 2,
-    image: "/assets/img/product/pipes/pipeslide5.jpg",
+    image: "/assets/img/product/thumbnails/Thumbnail-Mechanical-Rotating Equipment.jpg",
     icon: "/assets/img/icon/02.svg",
     number: "02",
     title: "Mechanical / Rotating Equipment",
@@ -117,7 +117,7 @@ export const products2 = [
   },
   {
     id: 3,
-    image: "/assets/img/product/pipes/pipeslide7.jpg",
+    image: "/assets/img/product/thumbnails/Thumbnail-Process Equipment.jpg",
     icon: "/assets/img/icon/03.svg",
     number: "03",
     title: "Process Equipment",
@@ -126,7 +126,7 @@ export const products2 = [
   },
   {
     id: 4,
-    image: "/assets/img/product/pipes/pipeslide10.jpg",
+    image: "/assets/img/product/thumbnails/Thumbnail-Automation & Control Systems.jpg",
     icon: "/assets/img/icon/07.svg",
     number: "04",
     title: "Automation & Control Systems",
@@ -135,7 +135,7 @@ export const products2 = [
   },
   {
     id: 5,
-    image: "/assets/img/product/pipes/pipeslide11.jpg",
+    image: "/assets/img/product/thumbnails/Thumbnail-Electrical.jpg",
     icon: "/assets/img/icon/08.svg",
     number: "05",
     title: " Electrical",
@@ -144,7 +144,7 @@ export const products2 = [
   },
   {
     id: 6,
-    image: "/assets/img/product/pipes/pipeslide13.jpg",
+    image: "/assets/img/product/thumbnails/Thumbnail-Wellhead Systems.jpg",
     icon: "/assets/img/icon/09.svg",
     number: "06",
     title: "Wellhead Systems",
@@ -152,19 +152,19 @@ export const products2 = [
     delay: ".6s",
   },
   {
-    id: 6,
-    image: "/assets/img/product/pipes/pipeslide14.jpg",
+    id: 7,
+    image: "/assets/img/product/thumbnails/Thumbnail-Artificial Lift.jpg",
     icon: "/assets/img/icon/09.svg",
-    number: "06",
+    number: "07",
     title: "Artificial Lift Systems",
     description: "Progressive cavity pumps, surface transfer units, completion tools.",
     delay: ".6s",
   },
   {
-    id: 6,
-    image: "/assets/img/product/pipes/pipeslide17.jpg",
+    id: 8,
+    image: "/assets/img/product/thumbnails/Thumbnail-Heat Management Solution.jpg",
     icon: "/assets/img/icon/09.svg",
-    number: "06",
+    number: "08",
     title: "Heat Management Solutions",
     description: "Electrical heating systems for tanks, pipelines, and boreholes.",
     delay: ".6s",

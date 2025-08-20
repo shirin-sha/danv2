@@ -159,7 +159,7 @@ export const serviceItems2 = [
 export const services = [
   {
     id: 1,
-    image: "/assets/img/product/pipes/pipeslide4.jpg",
+    image: "/assets/img/service/thumbnails/Services for Rotating Equipment-Thumbnail.jpg",
     icon: "/assets/img/icon/03.svg",
     number: "01",
     title: "Services for Rotating Equipment",
@@ -168,7 +168,7 @@ export const services = [
   },
   {
     id: 2,
-    image: "/assets/img/product/pipes/pipeslide5.jpg",
+    image: "/assets/img/service/thumbnails/Overhauling of Pumps & Compressors-Thumbnail.jpg",
     icon: "/assets/img/icon/02.svg",
     number: "02",
     title: "Overhauling of Pumps & Compressors",
@@ -177,7 +177,7 @@ export const services = [
   },
   {
     id: 3,
-    image: "/assets/img/product/pipes/pipeslide7.jpg",
+    image: "/assets/img/service/thumbnails/Overhauling and Repair for All Brands-Thumbnail.jpg",
     icon: "/assets/img/icon/03.svg",
     number: "03",
     title: "Overhauling and Repair for All Brands",
@@ -186,7 +186,7 @@ export const services = [
   },
   {
     id: 4,
-    image: "/assets/img/product/pipes/pipeslide10.jpg",
+    image: "/assets/img/service/thumbnails/Tray Maintenance Services-Thumbnail.jpg",
     icon: "/assets/img/icon/07.svg",
     number: "04",
     title: "Tray Maintenance Services",
@@ -195,7 +195,7 @@ export const services = [
   },
   {
     id: 5,
-    image: "/assets/img/product/pipes/pipeslide11.jpg",
+    image: "/assets/img/service/thumbnails/Sulpher Handling Services-Thumbnail.jpg",
     icon: "/assets/img/icon/08.svg",
     number: "05",
     title: "Sulphur Handling Services",
@@ -204,7 +204,7 @@ export const services = [
   },
   {
     id: 6,
-    image: "/assets/img/product/pipes/pipeslide13.jpg",
+    image: "/assets/img/service/thumbnails/Casing Running and Fishing Services-Thumbnail.jpg",
     icon: "/assets/img/icon/09.svg",
     number: "06",
     title: "Casing Running and Fishing Services",

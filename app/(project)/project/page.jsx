@@ -15,7 +15,7 @@ export default function page() {
       <Header2 />
       <div
         className="breadcrumb-wrapper bg-cover"
-        style={{ backgroundImage: 'url("/assets/img/breadcrumb-bg.jpg")' }}
+        style={{ backgroundImage:  'url("/assets/img/pagetitle.jpg")' }}
       >
      
         <div className="container">

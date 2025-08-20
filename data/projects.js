@@ -70,7 +70,7 @@ export const projects = [
   },
   {
     id: 10,
-    images: ["/assets/img/project/12.jpg", "/assets/img/project/12.jpg"],
+    images: ["/assets/img/project/13.jpg", "/assets/img/project/13.jpg"],
     title: "Combine Electricity",
     description:
       "There are many variations of a passages of Lorem Ipsum available.",
@@ -78,7 +78,7 @@ export const projects = [
   },
   {
     id: 11,
-    images: ["/assets/img/project/13.jpg", "/assets/img/project/13.jpg"],
+    images: ["/assets/img/project/13.jpg", "/assets/img/project/14.jpg"],
     title: "Bridge Trangle Core",
     description:
       "There are many variations of a passages of Lorem Ipsum available.",
@@ -86,7 +86,7 @@ export const projects = [
   },
   {
     id: 12,
-    images: ["/assets/img/project/14.jpg", "/assets/img/project/14.jpg"],
+    images: ["/assets/img/project/14.jpg", "/assets/img/project/15.jpg"],
     title: "General Construction",
     description:
       "There are many variations of a passages of Lorem Ipsum available.",

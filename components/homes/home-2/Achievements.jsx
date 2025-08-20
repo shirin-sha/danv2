@@ -6,7 +6,7 @@ export default function Achievements() {
   return (
     <section
       className="achivements-section fix section-bg-2 section-padding bg-cover"
-      style={{ backgroundImage: 'url("/assets/img/achivements-bg-shape.png")' }}
+      style={{ backgroundImage: 'url("/assets/img/achivements-bg-shape.png")',marginBottom:'120px' }}
     >
       <div className="container">
         <div className="achivements-wrapper">

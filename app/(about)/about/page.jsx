@@ -19,7 +19,7 @@ export default function page() {
       <Header2 />
       <div
         className="breadcrumb-wrapper bg-cover"
-        style={{ backgroundImage: 'url("/assets/img/breadcrumb-bg.jpg")' }}
+        style={{ backgroundImage: 'url("/assets/img/pagetitle.jpg")' }}
       >
       
         <div className="container">
@@ -51,50 +51,82 @@ export default function page() {
       </div>
 
       {/* Section 1: Introduction */}
-      <section className="about-section fix section-padding">
+      <section
+        id="about"
+        className="about-section fix section-padding scrollSpySection"
+      >
+ 
         <div className="container">
-          <div className="row align-items-start g-4">
-            <div className="col-lg-6">
-              <div className="section-title">
-                <h6 className="wow fadeInUp">
-                  <i className="fa-regular fa-arrow-left-long" />
-                  Empowering Industry Since 1978
-                  <i className="fa-regular fa-arrow-right-long" />
-                </h6>
-                <h2 className="splt-txt wow">
-                  <AnimatedText text="Your Reliable Partner in" /> <br />
-                  <AnimatedText text="Industrial Progress" />
-                </h2>
+          <div className="about-wrapper">
+            <div className="row g-4">
+              <div className="col-lg-6">
+                <div className="about-image">
+                  <Image
+                    src="/assets/img/about/01.jpg"
+                    alt="img"
+                    width={485}
+                    height={592}
+                    className="wow fadeInLeft"
+                    data-wow-delay=".2s"
+                  />
+                  <div
+                    className="about-image-2 wow fadeInUp"
+                    data-wow-delay=".4s"
+                  >
+                    <Image
+                      src="/assets/img/about/02.jpg"
+                      width={260}
+                      height={270}
+                      alt="img"
+                    />
+                
+                  </div>
+                  <div className="about-line-shape">
+                    <Image
+                      src="/assets/img/about/about-shape-3.png"
+                      width={30}
+                      height={545}
+                      alt="img"
+                    />
+                  </div>
+                </div>
               </div>
-              <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".3s">
-                With over four decades of proven experience, DAN General Trading & Contracting Co. W.L.L. stands as a key player in Kuwait’s industrial sector. Specializing in oil, gas, petrochemical, power, water, and logistics, we deliver world-class products and solutions through strong global partnerships, technical excellence, and an unwavering commitment to safety and service.
-              </p>
-              <ul className="details-list wow fadeInUp" data-wow-delay=".4s">
-                <li>
-                  <i className="fa-solid fa-circle-check" /> Serving major government and private clients
-                </li>
-                <li>
-                  <i className="fa-solid fa-circle-check" /> Diversified industrial product and service portfolio
-                </li>
-                <li>
-                  <i className="fa-solid fa-circle-check" /> Strong international supplier partnerships
-                </li>
-              </ul>
-            </div>
-            <div className="col-lg-6">
-              <div className="about-image position-relative wow fadeInUp" data-wow-delay=".3s">
-                <Image
-                  src="/assets/img/about/Section-2-Image-1.jpg"
-                  alt="About"
-                  width={540}
-                  height={540}
-                />
+              <div className="col-lg-6">
+                <div className="about-content">
+                  <div className="section-title">
+                    <h6 className="wow fadeInUp">
+                      <i className="fa-regular fa-arrow-left-long"></i> Empowering Industry Since 1978
+                      <i className="fa-regular fa-arrow-right-long"></i>
+                    </h6>
+                    <h2 className="splt-txt wow">
+                      <AnimatedText text="Your Reliable Partner in
+Industrial Progress" />
+                    </h2>
+                  </div>
+                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
+                  With over four decades of proven experience, DAN General Trading & Contracting Co. W.L.L. stands as a key player in Kuwait’s industrial sector. Specializing in oil, gas, petrochemical, power, water, and logistics, we deliver world-class products and solutions through strong global partnerships, technical excellence, and an unwavering commitment to safety and service.
+                  </p>
+                  <ul className="list-items wow fadeInUp" data-wow-delay=".2s">
+                    <li>
+                      <i className="fa-solid fa-circle-check"></i>
+                      Serving major government and private clients
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle-check"></i>
+                      Diversified industrial product and service portfolio
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle-check"></i>
+                      Strong international supplier partnerships
+                    </li>
+                  </ul>
+               
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-
+      </section>{" "}
       {/* Section 2: CEO Message */}
       <section className="section-padding section-bg">
         <div className="container">
@@ -419,10 +451,12 @@ export default function page() {
       </div>
       </section>
 
-      <Highlights />
+            <Highlights />
 
+      <div style={{ height: '120px' }}></div>
       {/* Section 7: Testimonials */}
-      <Testimonials />
+      
+      <Testimonials/>
 
       {/* Section 9: Our Team */}
       <Team />

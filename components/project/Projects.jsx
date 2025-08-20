@@ -1,7 +1,6 @@
 import { projects } from "@/data/projects";
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 export default function Projects() {
   return (
     <section className="project-section section-padding fix">
@@ -27,20 +26,24 @@ export default function Projects() {
                 </div>
                 <div className="project-content">
                   <h3>
-                    <Link href={`/project-details/${project.id}`}>
+                   
                       {project.title}
-                    </Link>
+                  
                   </h3>
                   <p>{project.description}</p>
                 </div>
                 <div className="shape-img">
-                  <Image
-                    src="/assets/img/project/shape.png"
-                    width={57}
-                    height={54}
-                    alt="img"
-                  />
-                </div>
+  <Image
+    src="/assets/img/project/shape.png"
+    width={57}
+    height={54}
+    alt="img"
+    style={{
+      filter:
+        'invert(34%) sepia(87%) saturate(3910%) hue-rotate(186deg) brightness(95%) contrast(101%)',
+    }}
+  />
+</div>
               </div>
             </div>
           ))}

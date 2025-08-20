@@ -13,6 +13,7 @@ export const serviceDetails = [
     ],
     conclusion:
       "Whether it’s routine inspection or emergency repair, we maximize uptime and reliability for your rotating equipment fleet.",
+      image: "/assets/img/service/Services for Rotating Equipment-Detail-Page.jpg",
   },
   {
     id: 2,
@@ -43,6 +44,7 @@ export const serviceDetails = [
     ],
     conclusion:
       "Our multi-brand service capability offers clients flexibility, savings, and streamlined maintenance support under one roof.",
+      image: "/assets/img/service/Overhauling and Repair for All Brands-Detail-Page.jpg",  
   },
   {
     id: 20,
@@ -58,6 +60,7 @@ export const serviceDetails = [
     ],
     conclusion:
       "We help clients reduce process inefficiencies and operational risks by optimizing tray integrity and functionality.",
+      image: "/assets/img/service/Tray Maintenance Services-Detail-Page.jpg",
   },
   {
     id: 4,
@@ -73,6 +76,7 @@ export const serviceDetails = [
     ],
     conclusion:
       "Our sulphur handling services deliver maximum safety, environmental care, and system efficiency to industrial clients.",
+      image: "/assets/img/service/Sulpher Handling Services-Detail-Page.jpg",
   },
   {
     id: 5,
@@ -88,6 +92,7 @@ export const serviceDetails = [
     ],
     conclusion:
       "Our downhole services ensure operational continuity while reducing risk, cost, and time in drilling operations.",
+      image: "/assets/img/service/Casing Running and Fishing Services-Detail-Page.jpg",
   },
   {
     id: 6,
@@ -103,6 +108,7 @@ export const serviceDetails = [
     ],
     conclusion:
       "With DAN’s coating systems, pipelines are built to last longer, perform better, and remain protected.",
+      image: "/assets/img/service/Pipe & Tubular Coating/Lining-Detail-Page.jpg",
   },
   {
     id: 7,
@@ -118,6 +124,7 @@ export const serviceDetails = [
     ],
     conclusion:
       "Our geophysical surveys offer valuable insights with faster turnaround and greater area coverage than traditional methods.",
+      image: "/assets/img/service/Airborne Gravity and Magnetic Survey-Detail-Page.jpg",
   },
   {
     id: 8,
@@ -133,6 +140,7 @@ export const serviceDetails = [
     ],
     conclusion:
       "From exploration to production, our well testing services help clients understand and optimize reservoir behavior effectively.",
+      image: "/assets/img/service/Welltesting Service-Detail-Page.jpg",
   },
   {
     id: 9,
@@ -148,5 +156,6 @@ export const serviceDetails = [
     ],
     conclusion:
       "Our EOR systems increase production output, improve recovery rates, and extend the life of oil assets.",
+      image: "/assets/img/service/Enhanced Oil Recovery System-Detail-Page.jpg",
   },
 ]; 

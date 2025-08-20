@@ -17,7 +17,7 @@ export default function page({ params }) {
       <Header2 />
       <div
         className="breadcrumb-wrapper bg-cover"
-        style={{ backgroundImage: 'url("/assets/img/breadcrumb-bg.jpg")' }}
+        style={{ backgroundImage: 'url("/assets/img/pagetitle.jpg")' }}
       >
         <div className="shape-image float-bob-y">
           <Image

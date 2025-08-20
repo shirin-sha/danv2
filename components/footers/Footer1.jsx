@@ -97,7 +97,7 @@ since 1978, delivering advanced solutions in oil, gas, power, water, and logisti
                 <ul className="list-area">
                   {footerLinks.map((link, index) => (
                     <li key={index}>
-                      <Link href={`#`}>
+                      <Link href={`${link.href}`}>
                         <i className="fa-solid fa-chevrons-right" />
                         {link.name}
                       </Link>

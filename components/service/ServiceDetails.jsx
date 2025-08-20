@@ -16,7 +16,7 @@
               <div className="col-12 col-lg-8">
                 <div className="service-details-image">
                   <Image
-                    src="/assets/img/product/pipes/pipeslide17.jpg"
+                    src={serviceItem.image}
                     width={740}
                     height={336}
                     alt="img"

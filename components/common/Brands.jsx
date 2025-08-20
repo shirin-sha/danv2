@@ -38,8 +38,8 @@ export default function Brands() {
           <SwiperSlide key={index} className="swiper-slide">
             <div className="brand-image center">
               <Image
-                width={92}
-                height={120}
+                width={150}
+                height={180}
                 style={{ objectFit: "contain" }}
                 src={src}
                 alt={`Brand logo ${index + 1}`}

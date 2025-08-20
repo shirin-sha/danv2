@@ -45,7 +45,7 @@ export default function Products() {
                 <div className="service-content">
                   {/* <h2 className="number">{service.number}</h2> */}
                   <h3>
-                    <Link href={`/service-details/${service.id}`}>
+                    <Link href={`/product-details/${service.id}`}>
                       {service.title}
                     </Link>
                   </h3>

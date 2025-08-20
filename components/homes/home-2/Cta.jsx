@@ -7,7 +7,7 @@ export default function Cta() {
     <>
       <section
         className="cta-section-2 bg-cover fix"
-        style={{ backgroundImage: 'url("/assets/img/cta-bg-2.jpg")' }}
+        style={{ backgroundImage: 'url("/assets/img/Hmepage-CTA.jpg")' }}
       >
         <div className="container">
           <div className="cta-banner-wrapper-2">

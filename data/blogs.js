@@ -67,7 +67,7 @@ export const newsItems2 = [
 export const newsItems3 = [
   {
     id: 7,
-    images: ["/assets/img/news/04.jpg", "/assets/img/news/04.jpg"],
+    images: ["/assets/img/news/img.webp", "/assets/img/news/img.webp"],
     category: "Oil & Gas",
     date: "01 August 2025",
     title: "DAN Signs Strategic Equipment Deal With Global Supplier",
@@ -79,7 +79,7 @@ export const newsItems3 = [
   },
   {
     id: 8,
-    images: ["/assets/img/news/05.jpg", "/assets/img/news/05.jpg"],
+    images: ["/assets/img/news/04.webp", "/assets/img/news/04.webp"],
     category: "Industrial Services",
     date: "27 July 2025",
     title: "Major Overhaul Project Completed at KNPC Facilities",
@@ -92,7 +92,7 @@ export const newsItems3 = [
   },
   {
     id: 9,
-    images: ["/assets/img/news/06.jpg", "/assets/img/news/06.jpg"],
+    images: ["/assets/img/news/05.webp", "/assets/img/news/05.webp"],
     category: "Technology & Control",
     date: "21 July 2025",
     title: "New Automation Systems Deployed for Remote Monitoring",
@@ -104,7 +104,7 @@ export const newsItems3 = [
   },
   {
     id: 10,
-    images: ["/assets/img/news/07.jpg", "/assets/img/news/07.jpg"],
+    images: ["/assets/img/news/07.webp", "/assets/img/news/07.webp"],
     category: "Oil & Gas",
     date: "15 July 2025",
     title: "Pipeline Maintenance Project Successfully Completed",
@@ -116,7 +116,7 @@ export const newsItems3 = [
   },
   {
     id: 11,
-    images: ["/assets/img/news/08.jpg", "/assets/img/news/08.jpg"],
+    images:["/assets/img/news/08.webp", "/assets/img/news/08.webp"],
     category: "Industrial Services",
     date: "10 July 2025",
     title: "New Safety Protocols Implemented Across Facilities",
@@ -128,7 +128,7 @@ export const newsItems3 = [
   },
   {
     id: 12,
-    images: ["/assets/img/news/09.jpg", "/assets/img/news/09.jpg"],
+    images: ["/assets/img/news/09.webp", "/assets/img/news/09.webp"],
     category: "Technology & Control",
     date: "05 July 2025",
     title: "Advanced Control Systems Installation Completed",

@@ -35,7 +35,7 @@ export default function ContactInfo() {
                   Al Mutawa Building, 8th floor,
                   <br />
                   Behind/Next to Public Authority for Minor Affairs (PAMA), Area 30,
-                  <br />
+                
                   Al-Sharq, Kuwait
                 </p>
                 <p>
@@ -65,7 +65,7 @@ export default function ContactInfo() {
                   Shuaiba Industrial Area,
                   <br />
                   Block- 8,
-                  <br />
+                
                   Kuwait
                 </p>
                 <p>

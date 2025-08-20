@@ -51,7 +51,7 @@ export default function Products() {
                   </h3>
                   <p>{service.description}</p>
                   <Link
-                    href={`#`}
+                    href={`/product-details/${service.id}`}
                     className="link-btn"
                   >
                     Explore More <i className="fa-solid fa-arrow-right" />

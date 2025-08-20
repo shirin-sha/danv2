@@ -29,6 +29,7 @@ export const serviceDetails = [
     ],
     conclusion:
       "With DAN, clients receive comprehensive pump and compressor solutions that restore full capacity and meet compliance every time.",
+      image: "/assets/img/service/Overhauling of Pumps & Compressors-Detail-Page.jpg",  
   },
   {
     id: 3,
@@ -108,7 +109,7 @@ export const serviceDetails = [
     ],
     conclusion:
       "With DAN’s coating systems, pipelines are built to last longer, perform better, and remain protected.",
-      image: "/assets/img/service/Pipe & Tubular Coating/Lining-Detail-Page.jpg",
+      image: "/assets/img/service/Pipe - Tubular coating-Lining-Detail-Page.jpg",
   },
   {
     id: 7,
@@ -156,6 +157,6 @@ export const serviceDetails = [
     ],
     conclusion:
       "Our EOR systems increase production output, improve recovery rates, and extend the life of oil assets.",
-      image: "/assets/img/service/Enhanced Oil Recovery System-Detail-Page.jpg",
+      image: "/assets/img/service/Enhancement Oil Recovery System-Detail-Page.jpg",
   },
 ]; 

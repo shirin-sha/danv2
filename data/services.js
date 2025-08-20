@@ -177,7 +177,7 @@ export const services = [
   },
   {
     id: 3,
-    image: "/assets/img/service/thumbnails/Overhauling and Repair for All Brands-Thumbnail.jpg",
+    image: "/assets/img/service/thumbnails/Overhauling and repair for all brands-Thumbnail.jpg",
     icon: "/assets/img/icon/03.svg",
     number: "03",
     title: "Overhauling and Repair for All Brands",

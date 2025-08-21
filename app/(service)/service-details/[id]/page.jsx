@@ -2,7 +2,7 @@ import Brands from "@/components/common/Brands";
 import Footer1 from "@/components/footers/Footer1";
 import Header2 from "@/components/headers/Header2";
 import ServiceDetails from "@/components/service/ServiceDetails";
-import { allServices } from "@/data/services";
+import { services } from "@/data/services";
 import Image from "next/image";
 import Link from "next/link";
 // export const metadata = {
@@ -12,7 +12,7 @@ import Link from "next/link";
 
 export default function page({ params }) {
   const serviceItem =
-    allServices.filter((elm) => elm.id == params.id)[0] || allServices[0];
+  services.filter((elm) => elm.id == params.id)[0] || allServices[0];
   return (
     <>
       <Header2 />

@@ -2,9 +2,13 @@ import Footer1 from "@/components/footers/Footer1";
 import Header2 from "@/components/headers/Header2";
 import Products from "@/components/products/Products";
 import Link from "next/link";
+// export const metadata = {
+//   title: "Products || Xbuild - Constriction nextjs Template",
+//   description: "Xbuild - Constriction nextjs Template",
+// };
 export const metadata = {
-  title: "Products || Xbuild - Constriction nextjs Template",
-  description: "Xbuild - Constriction nextjs Template",
+  title: "DAN",
+  description: "DAN General Trading & Contracting Co. W.L.L",
 };
 
 export default function page() {

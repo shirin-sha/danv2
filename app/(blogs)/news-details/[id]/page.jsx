@@ -5,9 +5,13 @@ import Header2 from "@/components/headers/Header2";
 import { allNews } from "@/data/blogs";
 import Image from "next/image";
 import Link from "next/link";
+// export const metadata = {
+//   title: "Blog Details || Xbuild - Constriction nextjs Template",
+//   description: "Xbuild - Constriction nextjs Template",
+// };
 export const metadata = {
-  title: "Blog Details || Xbuild - Constriction nextjs Template",
-  description: "Xbuild - Constriction nextjs Template",
+  title: "DAN",
+  description: "DAN General Trading & Contracting Co. W.L.L",
 };
 export default function page({ params }) {
   const newsItem =

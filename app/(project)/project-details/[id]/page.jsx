@@ -5,9 +5,13 @@ import ProjectDetails from "@/components/project/ProjectDetails";
 import Link from "next/link";
 import Image from "next/image";
 import { allProjects } from "@/data/projects";
+// export const metadata = {
+//   title: "Project Details || Xbuild - Constriction nextjs Template",
+//   description: "Xbuild - Constriction nextjs Template",
+// };
 export const metadata = {
-  title: "Project Details || Xbuild - Constriction nextjs Template",
-  description: "Xbuild - Constriction nextjs Template",
+  title: "DAN",
+  description: "DAN General Trading & Contracting Co. W.L.L",
 };
 export default function page({ params }) {
   const projectItem =

@@ -5,8 +5,8 @@ import React from "react";
 import Image from "next/image";
 import AnimatedText from "@/components/common/AnimatedText";
 export const metadata = {
-  title: "Not Found || Xbuild - Constriction nextjs Template",
-  description: "Xbuild - Constriction nextjs Template",
+  title: "DAN",
+  description: "DAN General Trading & Contracting Co. W.L.L",
 };
 export default function page() {
   return (

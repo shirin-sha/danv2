@@ -4,11 +4,14 @@ import Header2 from "@/components/headers/Header2";
 import Projects from "@/components/project/Projects";
 import Image from "next/image";
 import Link from "next/link";
+// export const metadata = {
+//   title: "Project || Xbuild - Constriction nextjs Template",
+//   description: "Xbuild - Constriction nextjs Template",
+// };
 export const metadata = {
-  title: "Project || Xbuild - Constriction nextjs Template",
-  description: "Xbuild - Constriction nextjs Template",
+  title: "DAN",
+  description: "DAN General Trading & Contracting Co. W.L.L",
 };
-
 export default function page() {
   return (
     <>

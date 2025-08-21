@@ -5,9 +5,13 @@ import ServiceDetails from "@/components/service/ServiceDetails";
 import { allServices } from "@/data/services";
 import Image from "next/image";
 import Link from "next/link";
+// export const metadata = {
+//   title: "Service Details || Xbuild - Constriction nextjs Template",
+//   description: "Xbuild - Constriction nextjs Template",
+// };
 export const metadata = {
-  title: "Service Details || Xbuild - Constriction nextjs Template",
-  description: "Xbuild - Constriction nextjs Template",
+  title: "DAN",
+  description: "DAN General Trading & Contracting Co. W.L.L",
 };
 export default function page({ params }) {
   const serviceItem =

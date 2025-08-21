@@ -13,9 +13,13 @@ import Testimonials from "@/components/homes/home-2/Testimonials";
 import React from "react";
 import Image from "next/image";
 import Services from "@/components/homes/home-2/Services";
+// export const metadata = {
+//   title: "Home 2 || Xbuild - Constriction nextjs Template",
+//   description: "Xbuild - Constriction nextjs Template",
+// };
 export const metadata = {
-  title: "Home 2 || Xbuild - Constriction nextjs Template",
-  description: "Xbuild - Constriction nextjs Template",
+  title: "DAN",
+  description: "DAN General Trading & Contracting Co. W.L.L",
 };
 export default function page() {
   return (

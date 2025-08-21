@@ -5,9 +5,13 @@ import Pricing from "@/components/homes/home-2/Pricing";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+// export const metadata = {
+//   title: "Pricing || Xbuild - Constriction nextjs Template",
+//   description: "Xbuild - Constriction nextjs Template",
+// };
 export const metadata = {
-  title: "Pricing || Xbuild - Constriction nextjs Template",
-  description: "Xbuild - Constriction nextjs Template",
+  title: "DAN",
+  description: "DAN General Trading & Contracting Co. W.L.L",
 };
 export default function page() {
   return (

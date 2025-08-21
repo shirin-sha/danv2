@@ -8,11 +8,14 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import AnimatedText from "@/components/common/AnimatedText";
+// export const metadata = {
+//   title: "About || Xbuild - Constriction nextjs Template",
+//   description: "Xbuild - Constriction nextjs Template",
+// };
 export const metadata = {
-  title: "About || Xbuild - Constriction nextjs Template",
-  description: "Xbuild - Constriction nextjs Template",
+  title: "DAN",
+  description: "DAN General Trading & Contracting Co. W.L.L",
 };
-
 export default function page() {
   return (
     <>

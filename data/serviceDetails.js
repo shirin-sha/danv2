@@ -48,7 +48,7 @@ export const serviceDetails = [
       image: "/assets/img/service/Overhauling and Repair for All Brands-Detail-Page.jpg",  
   },
   {
-    id: 20,
+    id: 3,
     title: "Tray Maintenance Services",
     description: [
       "Tray efficiency is vital in distillation and separation columns, especially in refining and petrochemical operations. DAN provides full-scale tray maintenance services, including inspection, leveling, welding, and replacement, ensuring process stability and performance.",

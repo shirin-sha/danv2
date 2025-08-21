@@ -9,10 +9,7 @@ import Link from "next/link";
 //   title: "Service Details || Xbuild - Constriction nextjs Template",
 //   description: "Xbuild - Constriction nextjs Template",
 // };
-export const metadata = {
-  title: "DAN",
-  description: "DAN General Trading & Contracting Co. W.L.L",
-};
+
 export default function page({ params }) {
   const serviceItem =
     allServices.filter((elm) => elm.id == params.id)[0] || allServices[0];

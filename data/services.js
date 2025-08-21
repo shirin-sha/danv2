@@ -12,7 +12,7 @@ export const serviceItems = [
     imgSrc: "/assets/img/product/pipes/pipeslide5.jpg",
     iconSrc: "/assets/img/icon/02.svg",
     number: "02",
-    title: "Overhauling and Repair for All Brands",
+    title: "Tray Maintenance Services",
     description: "Expertise in servicing all major OEMs, ensuring efficient, brand-compliant repairs for industrial machinery.",
   },
   {
@@ -20,7 +20,7 @@ export const serviceItems = [
     imgSrc: "/assets/img/product/pipes/pipeslide7.jpg",
     iconSrc: "/assets/img/icon/03.svg",
     number: "03",
-    title: "Tray Maintenance Services",
+    title: "Overhauling and Repair for All Brands",
     description: "Inspection, leveling, and replacement of trays in process columns for maximum throughput and operational efficiency.",
   },
   {

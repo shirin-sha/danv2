@@ -12,7 +12,7 @@ import Link from "next/link";
 
 export default function page({ params }) {
   const serviceItem =
-  services.filter((elm) => elm.id == params.id)[0] || allServices[0];
+  services.filter((elm) => elm.id == params.id)[0] || [];
   return (
     <>
       <Header2 />

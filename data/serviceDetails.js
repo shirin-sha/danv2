@@ -48,7 +48,7 @@ export const serviceDetails = [
       image: "/assets/img/service/Overhauling and Repair for All Brands-Detail-Page.jpg",  
   },
   {
-    id: 3,
+    id: 4,
     title: "Tray Maintenance Services",
     description: [
       "Tray efficiency is vital in distillation and separation columns, especially in refining and petrochemical operations. DAN provides full-scale tray maintenance services, including inspection, leveling, welding, and replacement, ensuring process stability and performance.",
@@ -64,7 +64,7 @@ export const serviceDetails = [
       image: "/assets/img/service/Tray Maintenance Services-Detail-Page.jpg",
   },
   {
-    id: 4,
+    id: 5,
     title: "Sulphur Handling Services",
     description: [
       "Handling sulphur, especially in oil and gas facilities, demands strict environmental, health, and safety control. DAN General Trading brings extensive experience in managing solid and liquid sulphur — from transfer systems to temporary storage and loading operations.",
@@ -80,7 +80,7 @@ export const serviceDetails = [
       image: "/assets/img/service/Sulpher Handling Services-Detail-Page.jpg",
   },
   {
-    id: 5,
+    id: 6,
     title: "Casing Running and Fishing Services",
     description: [
       "DAN’s casing running and fishing services are engineered to support safe and efficient tubular operations in drilling environments. We provide precision tools and experienced crews to install casing and recover lost or stuck items during drilling.",
@@ -96,7 +96,7 @@ export const serviceDetails = [
       image: "/assets/img/service/Casing Running and Fishing Services-Detail-Page.jpg",
   },
   {
-    id: 6,
+    id: 7,
     title: "Pipe & Tubular Coating/Lining",
     description: [
       "To protect critical pipelines from internal corrosion and external elements, DAN provides a range of coating and lining services. We apply industry-proven technologies such as fusion-bond epoxy (FBE), polyurethane, and cement linings based on the operating environment.",
@@ -112,7 +112,7 @@ export const serviceDetails = [
       image: "/assets/img/service/Pipe - Tubular coating-Lining-Detail-Page.jpg",
   },
   {
-    id: 7,
+    id: 8,
     title: "Airborne Gravity and Magnetic Survey",
     description: [
       "Our airborne gravity and magnetic surveys provide non-invasive, cost-effective subsurface mapping to support oil, gas, and mineral exploration projects. By detecting anomalies in gravity and magnetic fields, clients can make data-driven exploration decisions.",
@@ -128,7 +128,7 @@ export const serviceDetails = [
       image: "/assets/img/service/Airborne Gravity and Magnetic Survey-Detail-Page.jpg",
   },
   {
-    id: 8,
+    id: 9,
     title: "Welltesting Service",
     description: [
       "Understanding a well’s production capability is essential for optimizing reservoir output. DAN provides accurate, safe, and efficient well testing services using surface and downhole equipment tailored to client needs.",
@@ -144,7 +144,7 @@ export const serviceDetails = [
       image: "/assets/img/service/Welltesting Service-Detail-Page.jpg",
   },
   {
-    id: 9,
+    id: 10,
     title: "Enhanced Oil Recovery System",
     description: [
       "DAN General Trading designs and implements Enhanced Oil Recovery (EOR) systems that revitalize mature oil fields and maximize extraction. We offer a full suite of solutions, including thermal recovery, chemical injection, and gas injection methods.",

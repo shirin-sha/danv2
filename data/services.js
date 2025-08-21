@@ -219,6 +219,42 @@ export const services = [
     description: "Precision tubular operations including casing installation and fishing tools.",
     delay: ".6s",
   },
+  {
+    id: 7,
+    image: "/assets/img/service/thumbnails/Pipe & Tubular Coating/Lining-Thumbnail.jpg",
+    icon: "/assets/img/icon/09.svg",
+    number: "07",
+    title: "Pipe & Tubular Coating/Lining",
+    description: "Precision tubular operations including casing installation and fishing tools.",
+    delay: ".6s",
+  },
+  {
+    id: 8,
+    image: "/assets/img/service/thumbnails/Pipe & Tubular Coating/Lining-Thumbnail.jpg",
+    icon: "/assets/img/icon/09.svg",
+    number: "08",
+    title: "Airborne Gravity & Magnetic Survey",
+    description: "Precision tubular operations including casing installation and fishing tools.",
+    delay: ".6s",
+  },
+  {
+    id: 9,
+    image: "/assets/img/service/thumbnails/Pipe & Tubular Coating/Lining-Thumbnail.jpg",
+    icon: "/assets/img/icon/09.svg",
+    number: "09",
+    title: "Welltesting Service",
+    description: "Precision tubular operations including casing installation and fishing tools.",
+    delay: ".6s",
+  },
+  {
+    id: 10,
+    image: "/assets/img/service/thumbnails/Pipe & Tubular Coating/Lining-Thumbnail.jpg",
+    icon: "/assets/img/icon/09.svg",
+    number: "10",
+    title: "Enhanced Oil Recovery System",
+    description: "Precision tubular operations including casing installation and fishing tools.",
+    delay: ".6s",
+  },
 ];
 
 export const services2 = [

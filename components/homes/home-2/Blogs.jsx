@@ -38,7 +38,7 @@ export default function Blogs() {
             </h2>
           </div>
           <Link
-            href={`#`}
+            href={`/news-grid`}
             className="theme-btn wow fadeInUp"
             data-wow-delay=".5s"
           >
@@ -73,7 +73,7 @@ export default function Blogs() {
                     <li>{news.date}</li>
                   </ul>
                   <h4>
-                    <Link href={`#`}>{news.title}</Link>
+                    <Link href={`/news-details/${news.id}`}>{news.title}</Link>
                   </h4>
                   <div className="author-items">
                     <div className="author-info">
@@ -89,7 +89,7 @@ export default function Blogs() {
                       </div>
                     </div>
                     <Link
-                      href={`#`}
+                      href={`/news-details/${news.id}`}
                       className="link-btn"
                     >
                       Read More <i className="fa-solid fa-arrow-right" />

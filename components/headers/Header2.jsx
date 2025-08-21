@@ -12,26 +12,19 @@ export default function Header2() {
           <div className="header-top-wrapper-2">
             <ul className="contact-list">
               <li>
-                <i className="far fa-envelope" />
-                <a href="mailto:dan@dantrading.com">dan@dantrading.com</a>
-              </li>
-              <li>
-                <i className="fa-sharp fa-solid fa-location-dot" />
-                Al Mutawa Building, Al-Sharq, Kuwait
-              </li>
-              <li>
-                <i className="fa-regular fa-phone" />
-                <a href="tel:+ 965 22432553">+ 965 22432553</a>
+                <span className="fw-semibold">DAN General Trading & Contracting Co. W.L.L</span>
               </li>
             </ul>
             <div className="top-right">
-              <ul className="text-list">
-                {/* <li>
-                  <Link href={``}>Privacy Policy</Link>
-                </li> */}
-                {/* <li>
-                  <Link href={`/contact`}>Terms &amp; Conditions</Link>
-                </li> */}
+              <ul className="contact-list">
+                <li>
+                  <i className="far fa-envelope" />
+                  <a href="mailto:dan@dantrading.com">dan@dantrading.com</a>
+                </li>
+                <li>
+                  <i className="fa-regular fa-phone" />
+                  <a href="tel:+ 965 22432553">+ 965 22432553</a>
+                </li>
               </ul>
               <div className="social-icon d-flex align-items-center">
                 <a href="#">

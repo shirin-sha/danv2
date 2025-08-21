@@ -74,7 +74,7 @@ export default function Hero() {
             With decades of proven expertise, DAN General Trading stands as a reliable and resourceful partner to leading industries across Kuwait and the region.
             </p>
             <Link
-              href={`#`}
+              href={`/service`}
               className="theme-btn bg-white wow fadeInUp"
               data-wow-delay=".5s"
             >

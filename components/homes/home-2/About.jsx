@@ -142,7 +142,7 @@ expertise with global partnerships.
                   </ul>
                   <div className="about-author">
                     <Link
-                      href={`#`}
+                      href={`/about`}
                       className="theme-btn wow fadeInUp"
                       data-wow-delay=".2s"
                     >

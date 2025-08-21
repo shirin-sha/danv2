@@ -83,7 +83,7 @@ export default function Pricing({ shadow = false }) {
                   </h3>
                   <p>{product.description}</p>
                   <Link
-                    href={`#`}
+                    href={`/products`}
                     className="link-btn"
                   >
                     Learn More <i className="fa-solid fa-arrow-right" />

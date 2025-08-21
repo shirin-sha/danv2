@@ -32,7 +32,7 @@ export const clients = [
   {
     id: 3,
     name: "Kuwait National Petroleum Company (KNPC)",
-    logo: "/assets/img/brand/Brand-3-KNPC.png",
+    logo: "/assets/img/brand/knpc.png",
     industry: "Oil Refining",
     location: "Kuwait",
     partnership_duration: "10+ years",
@@ -47,7 +47,7 @@ export const clients = [
   {
     id: 4,
     name: "Kuwait Aviation Fueling Company (KAFCO)",
-    logo: "/assets/img/brand/Brand-4-KAFCO.png",
+    logo: "/assets/img/brand/kafco.png",
     industry: "Aviation Fuel",
     location: "Kuwait",
     partnership_duration: "6+ years",
@@ -62,7 +62,7 @@ export const clients = [
   {
     id: 5,
     name: "Kuwait Foreign Petroleum Exploration Company (KUFPEC)",
-    logo: "/assets/img/brand/Brand-5-KUFPEC.png",
+    logo: "/assets/img/brand/kufpec.png",
     industry: "Oil Exploration",
     location: "Kuwait",
     partnership_duration: "7+ years",
@@ -77,7 +77,7 @@ export const clients = [
   {
     id: 6,
     name: "Equate Petrochemical Company",
-    logo: "/assets/img/brand/Brand-6-EQUATE.png",
+    logo: "/assets/img/brand/equate.png",
     industry: "Petrochemicals",
     location: "Kuwait",
     partnership_duration: "9+ years",
@@ -92,7 +92,7 @@ export const clients = [
   {
     id: 7,
     name: "Kuwait Gulf Oil Company (KGOC)",
-    logo: "/assets/img/brand/Brand-7-KGOC.png",
+    logo: "/assets/img/brand/kgoc.png",
     industry: "Oil & Gas",
     location: "Kuwait",
     partnership_duration: "5+ years",
@@ -122,7 +122,7 @@ export const clients = [
   {
     id: 9,
     name: "Kuwait Oil Tanker Company (KOTC)",
-    logo: "/assets/img/brand/Brand-9-KOTC.png",
+    logo: "/assets/img/brand/kotcc.png",
     industry: "Oil Transportation",
     location: "Kuwait",
     partnership_duration: "11+ years",
@@ -133,217 +133,100 @@ export const clients = [
     website: "https://kotc.com.kw",
     employees: "2,800+",
     established: "1957"
+  },
+  {
+    id: 10,
+    name: "Fluor",
+    logo: "/assets/img/brand/fluor.png",
+    industry: "Project Management Consultancy",
+    location: "International",
+    partnership_duration: "",
+    project_value: "",
+    description: "Global engineering, procurement, and construction company.",
+    services_provided: ["Project Management", "Engineering", "Consultancy"],
+    featured: false,
+    website: "https://www.fluor.com",
+    employees: "",
+    established: ""
+  },
+  {
+    id: 11,
+    name: "AMEC",
+    logo: "/assets/img/brand/amec.png",
+    industry: "Project Management Consultancy",
+    location: "International",
+    partnership_duration: "",
+    project_value: "",
+    description: "Engineering and project management consultancy.",
+    services_provided: ["Project Management", "Engineering", "Consultancy"],
+    featured: false,
+    website: "https://www.woodplc.com",
+    employees: "",
+    established: ""
+  },
+  {
+    id: 12,
+    name: "Worley Parsons",
+    logo: "/assets/img/brand/worleyparsons.png",
+    industry: "Project Management Consultancy",
+    location: "International",
+    partnership_duration: "",
+    project_value: "",
+    description: "Global provider of professional project and asset services.",
+    services_provided: ["PMC", "Engineering", "Consultancy"],
+    featured: false,
+    website: "https://www.worley.com",
+    employees: "",
+    established: ""
+  },
+  {
+    id: 13,
+    name: "Hyundai Engineering & Construction",
+    logo: "/assets/img/brand/hyundai.png",
+    industry: "Construction",
+    location: "International",
+    partnership_duration: "",
+    project_value: "",
+    description: "Global engineering and construction company.",
+    services_provided: ["EPC", "Construction", "Engineering"],
+    featured: false,
+    website: "https://en.hdec.kr/",
+    employees: "",
+    established: ""
+  },
+  {
+    id: 14,
+    name: "Daelim",
+    logo: "/assets/img/brand/daelim.png",
+    industry: "Construction",
+    location: "International",
+    partnership_duration: "",
+    project_value: "",
+    description: "International EPC and construction company.",
+    services_provided: ["EPC", "Construction", "Engineering"],
+    featured: false,
+    website: "https://www.daelim.co.kr/",
+    employees: "",
+    established: ""
   }
 ];
 
 export const clientTestimonials = [
-  {
-    id: 1,
-    client_name: "Ahmed Al-Rashid",
-    position: "Chief Engineering Officer",
-    company: "Kuwait Oil Company (KOC)",
-    company_logo: "/assets/img/brand/Brand-2-KOC.png",
-    image: "/assets/img/team/01.jpg",
-    testimonial: "XBuild has been our trusted partner for over a decade. Their expertise in oil and gas infrastructure is unmatched, and they consistently deliver projects on time and within budget. The quality of their work has significantly improved our operational efficiency.",
-    rating: 5,
-    project: "Al-Khafji Oil Field Development",
-    project_value: "$25M",
-    completion_date: "2023"
-  },
-  {
-    id: 2,
-    client_name: "Sarah Al-Mutawa",
-    position: "Project Director",
-    company: "Petrochemical Industries Company (PIC)",
-    company_logo: "/assets/img/brand/Brand-1-PIC.png",
-    image: "/assets/img/team/02.jpg",
-    testimonial: "Working with XBuild on our petrochemical facility expansion was exceptional. Their innovative approach to process engineering and commitment to safety standards exceeded our expectations. They truly understand the complexities of our industry.",
-    rating: 5,
-    project: "Ethylene Plant Expansion",
-    project_value: "$18M",
-    completion_date: "2023"
-  },
-  {
-    id: 3,
-    client_name: "Mohammad Al-Sabah",
-    position: "Operations Manager",
-    company: "Equate Petrochemical Company",
-    company_logo: "/assets/img/brand/Brand-6-EQUATE.png",
-    image: "/assets/img/team/03.jpg",
-    testimonial: "XBuild's attention to detail and technical expertise made our plant modernization project a complete success. Their team worked seamlessly with our engineers, and the results have improved our production capacity by 30%.",
-    rating: 5,
-    project: "Production Line Modernization",
-    project_value: "$12M",
-    completion_date: "2022"
-  },
-  {
-    id: 4,
-    client_name: "James Mitchell",
-    position: "Regional Director",
-    company: "Chevron Corporation",
-    company_logo: "/assets/img/brand/Brand-8-Chevron.png",
-    image: "/assets/img/team/04.jpg",
-    testimonial: "XBuild's global perspective and local expertise make them an ideal partner for international projects. Their commitment to sustainability and innovation aligns perfectly with our corporate values. Outstanding results every time.",
-    rating: 5,
-    project: "Sustainable Energy Integration",
-    project_value: "$35M",
-    completion_date: "2023"
-  }
+// ... existing code ...
 ];
 
 export const caseStudies = [
-  {
-    id: 1,
-    title: "Al-Khafji Oil Field Infrastructure Development",
-    client: "Kuwait Oil Company (KOC)",
-    client_logo: "/assets/img/brand/Brand-2-KOC.png",
-    image: "/assets/img/project/project1.webp",
-    category: "Oil & Gas Infrastructure",
-    duration: "24 months",
-    value: "$25M",
-    completion_year: "2023",
-    challenge: "Develop comprehensive infrastructure for a new oil field including drilling platforms, processing facilities, and transportation systems in a remote desert location.",
-    solution: "Implemented modular construction approach with prefabricated components, advanced logistics planning, and sustainable design principles to minimize environmental impact.",
-    results: [
-      "Increased oil production capacity by 40,000 barrels/day",
-      "Reduced construction time by 6 months through modular approach",
-      "Achieved 99.8% safety record with zero major incidents",
-      "Implemented renewable energy systems reducing carbon footprint by 25%"
-    ],
-    technologies: ["Modular Construction", "IoT Monitoring", "Renewable Energy Integration", "Advanced Materials"],
-    awards: ["Best Infrastructure Project 2023", "Safety Excellence Award"]
-  },
-  {
-    id: 2,
-    title: "Petrochemical Plant Expansion & Modernization",
-    client: "Petrochemical Industries Company (PIC)",
-    client_logo: "/assets/img/brand/Brand-1-PIC.png",
-    image: "/assets/img/project/project2.webp",
-    category: "Petrochemical Processing",
-    duration: "18 months",
-    value: "$18M",
-    completion_year: "2023",
-    challenge: "Expand existing ethylene production capacity while maintaining continuous operations and meeting stringent environmental regulations.",
-    solution: "Phased construction approach with advanced process engineering, real-time monitoring systems, and zero-downtime integration techniques.",
-    results: [
-      "Increased ethylene production by 50%",
-      "Reduced energy consumption by 20%",
-      "Zero production downtime during construction",
-      "Exceeded environmental compliance by 15%"
-    ],
-    technologies: ["Process Automation", "Energy Recovery Systems", "Digital Twin Technology", "Advanced Control Systems"],
-    awards: ["Innovation in Petrochemicals 2023", "Environmental Excellence Award"]
-  },
-  {
-    id: 3,
-    title: "Offshore Platform Construction & Installation",
-    client: "Kuwait Gulf Oil Company (KGOC)",
-    client_logo: "/assets/img/brand/Brand-7-KGOC.png",
-    image: "/assets/img/project/project3.webp",
-    category: "Offshore Construction",
-    duration: "30 months",
-    value: "$42M",
-    completion_year: "2022",
-    challenge: "Design and install offshore drilling platform in challenging marine environment with extreme weather conditions and environmental sensitivity.",
-    solution: "Utilized advanced marine engineering, weather-resistant materials, and innovative installation techniques with comprehensive environmental protection measures.",
-    results: [
-      "Successfully installed platform in record time",
-      "Achieved 100% environmental compliance",
-      "Established new industry standards for offshore construction",
-      "Created 200+ local jobs during construction"
-    ],
-    technologies: ["Marine Engineering", "Weather Monitoring Systems", "Environmental Protection", "Remote Operations"],
-    awards: ["Offshore Engineering Excellence 2022", "Marine Safety Award"]
-  }
+// ... existing code ...
 ];
 
 export const clientStats = [
-  {
-    number: "50+",
-    label: "Global Clients",
-    icon: "fa-solid fa-building",
-    description: "Trusted by leading companies worldwide"
-  },
-  {
-    number: "15+",
-    label: "Years Experience",
-    icon: "fa-solid fa-calendar-check",
-    description: "Proven track record in the industry"
-  },
-  {
-    number: "$500M+",
-    label: "Project Value",
-    icon: "fa-solid fa-chart-line",
-    description: "Total value of completed projects"
-  },
-  {
-    number: "98%",
-    label: "Client Satisfaction",
-    icon: "fa-solid fa-heart",
-    description: "Consistently exceeding expectations"
-  },
-  {
-    number: "200+",
-    label: "Projects Completed",
-    icon: "fa-solid fa-check-circle",
-    description: "Successfully delivered on time"
-  },
-  {
-    number: "25+",
-    label: "Countries Served",
-    icon: "fa-solid fa-globe",
-    description: "International project experience"
-  }
+// ... existing code ...
 ];
 
 export const industries = [
-  {
-    name: "All Industries",
-    value: "all",
-    count: clients.length
-  },
-  {
-    name: "Oil & Gas",
-    value: "oil & gas",
-    count: clients.filter(client => client.industry.toLowerCase().includes("oil")).length
-  },
-  {
-    name: "Petrochemicals",
-    value: "petrochemicals",
-    count: clients.filter(client => client.industry === "Petrochemicals").length
-  },
-  {
-    name: "Oil Refining",
-    value: "oil refining",
-    count: clients.filter(client => client.industry === "Oil Refining").length
-  },
-  {
-    name: "Aviation",
-    value: "aviation",
-    count: clients.filter(client => client.industry.includes("Aviation")).length
-  },
-  {
-    name: "Transportation",
-    value: "transportation",
-    count: clients.filter(client => client.industry.includes("Transportation")).length
-  }
+// ... existing code ...
 ];
 
 export const partnershipLevels = [
-  {
-    name: "All Partnerships",
-    value: "all"
-  },
-  {
-    name: "Strategic Partners (10+ years)",
-    value: "strategic"
-  },
-  {
-    name: "Long-term Partners (5-10 years)",
-    value: "longterm"
-  },
-  {
-    name: "Growing Partners (1-5 years)",
-    value: "growing"
-  }
-]; 
+// ... existing code ...
+];

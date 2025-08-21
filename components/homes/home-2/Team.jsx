@@ -51,14 +51,14 @@ export default function Team() {
                 </div>
                 <div className="team-content">
                   <h5>
-                    <Link href={`/team-details/${member.id}`}>
+                    <Link href={`#`}>
                       {member.name}
                     </Link>
                   </h5>
                   <p>{member.role}</p>
-                  <a href="team-details" className="icon">
+                  {/* <a href="team-details" className="icon">
                     <i className="fa-solid fa-link" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

@@ -56,7 +56,7 @@ export default function Projects() {
             </h2>
           </div>
           <Link
-            href={`#`}
+            href={`/project`}
             className="theme-btn wow fadeInUp"
             data-wow-delay=".4s"
           >
@@ -78,7 +78,7 @@ export default function Projects() {
                 <div className="project-content">
                   <div className="content">
                     <h3>
-                      <Link href={`#`}>
+                      <Link href={`/project`}>
                         {item.title}
                       </Link>
                     </h3>

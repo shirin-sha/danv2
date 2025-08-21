@@ -17,7 +17,7 @@
                 <div className="service-details-image">
                   <Image
                     src={serviceItem.image}
-                    width={740}
+                    width={852}
                     height={336}
                     alt="img"
                   />

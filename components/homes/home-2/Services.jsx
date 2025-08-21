@@ -101,7 +101,7 @@ export default function Services() {
                   </h3>
                   <p>{item.description}</p>
                   <Link
-                    href={`#`}
+                    href={`/service`}
                     className="link-btn"
                   >
                     Explore More <i className="fa-solid fa-arrow-right" />

@@ -17,7 +17,7 @@ export default function Cta() {
                 <AnimatedText text="Let’s start the conversation today." />
               </h2>
               <Link
-                href={`#`}
+                href={`/contact`}
                 className="theme-btn wow fadeInUp"
                 data-wow-delay=".4s"
               >

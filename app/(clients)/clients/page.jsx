@@ -12,27 +12,17 @@ export default function ClientsPage() {
     { key: "pmc", title: "PMC" }
   ];
 
-  const nameToCategoryMap = {
-    "Petrochemical Industries Company (PIC)": "government",
-    "Kuwait Oil Company (KOC)": "government",
-    "Kuwait National Petroleum Company (KNPC)": "government",
-    "Kuwait Aviation Fueling Company (KAFCO)": "government",
-    "Kuwait Foreign Petroleum Exploration Company (KUFPEC)": "government",
-    "Equate Petrochemical Company": "government",
-    "Kuwait Gulf Oil Company (KGOC)": "government",
-    "Kuwait Oil Tanker Company (KOTC)": "government",
-    "Chevron Corporation": "international",
-    "Fluor": "pmc",
-    "AMEC": "pmc",
-    "Worley Parsons": "pmc",
-    "Hyundai Engineering & Construction": "international",
-    "Daelim": "international"
-  };
-
   const categorizedClients = clients.reduce(
     (acc, client) => {
-      const category = nameToCategoryMap[client.name] || "pmc";
-      acc[category].push(client);
+      const location = (client.location || "").toLowerCase();
+
+      if (location === "kuwait") {
+        acc.government.push(client);
+      } else if (location === "pmc") {
+        acc.pmc.push(client);
+      } else {
+        acc.international.push(client);
+      }
       return acc;
     },
     { government: [], international: [], pmc: [] }

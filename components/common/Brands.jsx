@@ -1,5 +1,5 @@
 "use client";
-import { brandLogos } from "@/data/brands";
+import { clients } from "@/data/clients";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
@@ -31,6 +31,9 @@ export default function Brands() {
       },
     },
   };
+
+  const brandLogos = Array.from(new Set((clients || []).map((c) => c.logo).filter(Boolean)));
+
   return (
     <div className="container">
       <Swiper {...swiperOptions} className="swiper brand-slider">

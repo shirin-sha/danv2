@@ -62,9 +62,7 @@ export const menuData = [
 export const onepageLinks = [
   { href: "#about", text: "ABOUT US" },
   { href: "#services", text: "SERVICES" },
-  { href: "#projects", text: "PROJECTS" },
   { href: "#team", text: "TEAM" },
-  { href: "#blog", text: "BLOG" },
   { href: "#contact", text: "CONTACT" },
 ];
 
@@ -72,8 +70,6 @@ export const footerLinks = [
   // { name: "About Us", href: "#" },
   { name: "Products", href: "/products" },
   { name: "Services", href: "/service" },
-  { name: "Projects", href: "/project" },
   { name: "Clients", href: "/clients" },
   { name: "Careers", href: "/careers" },
-  { name: "News & Updates", href: "/news-grid" },
 ];

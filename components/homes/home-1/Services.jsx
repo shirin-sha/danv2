@@ -1,5 +1,5 @@
 "use client";
-import { serviceItems } from "@/data/services";
+// import { serviceItems } from "@/data/services";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import AnimatedText from "@/components/common/AnimatedText";
@@ -73,7 +73,7 @@ export default function Services() {
       </div>
       <div className="container-fluid">
         <Swiper {...swiperOptions} className="swiper service-slider">
-          {serviceItems.map((item, index) => (
+          {/* {serviceItems.map((item, index) => (
             <SwiperSlide className="swiper-slide" key={index}>
               <div className="service-box-items">
                 <div className="service-thumb">
@@ -104,7 +104,7 @@ export default function Services() {
                 </div>
               </div>
             </SwiperSlide>
-          ))}
+          ))} */}
         </Swiper>
       </div>
     </section>

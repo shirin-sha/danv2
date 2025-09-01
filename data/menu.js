@@ -47,10 +47,8 @@ export const menuData = [
     href: "#",
     iconClass: "fa-regular fa-plus",
     submenu: [
-      { label: "PROJECTS", href: "/project" },
       { label: "CLIENTS", href: "/clients" },
       { label: "CAREERS", href: "/careers" },
-      { label: "NEWS & UPDATES", href: "/news-grid" },
     ],
   },
   {

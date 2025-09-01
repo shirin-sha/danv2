@@ -31,7 +31,6 @@ export default function page() {
       <div className="brand-section fix section-padding">
         <Brands />
       </div>
-      <Projects />
       <Team />
       <section
         className="pricing-section fix section-padding bg-cover"
@@ -42,7 +41,6 @@ export default function page() {
       <Cta />
       <Achievements />
       <Testimonials />
-      <Blogs />
       <Footer1 />
     </>
   );

@@ -1,4 +1,3 @@
-import Team from "@/components/about/Team";
 import Brands from "@/components/common/Brands";
 import Footer1 from "@/components/footers/Footer1";
 import Header2 from "@/components/headers/Header2";
@@ -461,11 +460,9 @@ Industrial Progress" />
       
       <Testimonials/>
 
-      {/* Section 9: Our Team */}
-      <Team />
 
       {/* Section 9: Client Logos */}
-      <div className="brand-section fix section-padding pt-0">
+      <div className="brand-section fix section-padding py-60px">
         <Brands />
       </div>
       <Footer1 />

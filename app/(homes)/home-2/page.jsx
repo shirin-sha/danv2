@@ -31,7 +31,6 @@ export default function page() {
       <div className="brand-section fix section-padding">
         <Brands />
       </div>
-      <Team />
       <section
         className="pricing-section fix section-padding bg-cover"
         style={{ backgroundImage: 'url("/assets/img/pricing-bg.jpg")' }}

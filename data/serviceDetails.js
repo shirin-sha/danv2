@@ -45,7 +45,7 @@ export const serviceDetails = [
     ],
     conclusion:
       "Our multi-brand service capability offers clients flexibility, savings, and streamlined maintenance support under one roof.",
-      image: "/assets/img/service/Overhauling and Repair for All Brands-Detail-Page.jpg",  
+      image: "/assets/img/service/Overhauling and repair for all brands-Detail-Page.jpg",
   },
   {
     id: 4,
@@ -61,7 +61,7 @@ export const serviceDetails = [
     ],
     conclusion:
       "We help clients reduce process inefficiencies and operational risks by optimizing tray integrity and functionality.",
-      image: "/assets/img/service/Tray Maintenance Services-Detail-Page.jpg",
+      image: "/assets/img/service/Tray maintenance services-Detail-Page.jpg",
   },
   {
     id: 5,

@@ -194,7 +194,7 @@ export const services = [
   },
   {
     id: 4,
-    image: "/assets/img/service/thumbnails/Tray Maintenance Services-Thumbnail.jpg",
+    image: "/assets/img/service/thumbnails/Tray maintenance services-Thumbnail.jpg",
     icon: "/assets/img/icon/07.svg",
     number: "04",
     title: "Tray Maintenance Services",

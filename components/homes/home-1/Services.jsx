@@ -72,7 +72,7 @@ export default function Services() {
         </div>
       </div>
       <div className="container-fluid">
-        <Swiper {...swiperOptions} className="swiper service-slider">
+        {/* <Swiper {...swiperOptions} className="swiper service-slider"> */}
           {/* {serviceItems.map((item, index) => (
             <SwiperSlide className="swiper-slide" key={index}>
               <div className="service-box-items">
@@ -105,7 +105,7 @@ export default function Services() {
               </div>
             </SwiperSlide>
           ))} */}
-        </Swiper>
+        {/* </Swiper> */}
       </div>
     </section>
   );

@@ -221,7 +221,7 @@ export const services = [
   },
   {
     id: 7,
-    image: "/assets/img/service/thumbnails/Pipe & Tubular Coating/Lining-Thumbnail.jpg",
+    image: "/assets/img/service/thumbnails/Pipe - Tubular coating-Lining-Thumbnail.jpg",
     icon: "/assets/img/icon/09.svg",
     number: "07",
     title: "Pipe & Tubular Coating/Lining",
@@ -230,7 +230,7 @@ export const services = [
   },
   {
     id: 8,
-    image: "/assets/img/service/thumbnails/Pipe & Tubular Coating/Lining-Thumbnail.jpg",
+    image: "/assets/img/service/thumbnails/Airborne Gravity and Magnetic Survey-Thumbnail.jpg",
     icon: "/assets/img/icon/09.svg",
     number: "08",
     title: "Airborne Gravity & Magnetic Survey",
@@ -239,7 +239,7 @@ export const services = [
   },
   {
     id: 9,
-    image: "/assets/img/service/thumbnails/Pipe & Tubular Coating/Lining-Thumbnail.jpg",
+    image: "/assets/img/service/thumbnails/Welltesting Service-Thumbnail.jpg",
     icon: "/assets/img/icon/09.svg",
     number: "09",
     title: "Welltesting Service",
@@ -248,7 +248,7 @@ export const services = [
   },
   {
     id: 10,
-    image: "/assets/img/service/thumbnails/Pipe & Tubular Coating/Lining-Thumbnail.jpg",
+    image: "/assets/img/service/thumbnails/Enhancement Oil Recovery System-Thumbnail.jpg",
     icon: "/assets/img/icon/09.svg",
     number: "10",
     title: "Enhanced Oil Recovery System",

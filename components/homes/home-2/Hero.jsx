@@ -61,9 +61,9 @@ export default function Hero() {
             <div className="row g-4">
               <div className="col-xxl-8 wow fadeInUp" data-wow-delay=".5s">
                 <h1 className="splt-txt wow">
-                  <AnimatedText text="PARTNERING IN INDUSTRY, POWERING" />{" "}
+                  <AnimatedText text="Locally Your Global Partner" />{" "}
                   <b>
-                    <AnimatedText text="PROGRESS" />{" "}
+                    <AnimatedText text="" />{" "}
                   </b>
                 </h1>
               </div>

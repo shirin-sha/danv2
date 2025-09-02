@@ -95,7 +95,7 @@ services across Kuwait’s Oil, Gas, Power, Water, and Logistics sectors. We com
 expertise with global partnerships.
                   </p>
                   <div className="row g-4 mt-3">
-                    <div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div className="col-lg-4 wow fadeInUp" data-wow-delay=".2s">
                       <div className="icon-items">
                         <div className="icon">
                           <Image
@@ -106,22 +106,37 @@ expertise with global partnerships.
                           />
                         </div>
                         <h5 className="splt-txt wow">
-                          <AnimatedText text="Supply & Support" />
+                          <AnimatedText text="Logistics" />
                         </h5>
                       </div>
                     </div>
-                    <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+                    <div className="col-lg-4 wow fadeInUp" data-wow-delay=".4s">
                       <div className="icon-items">
                         <div className="icon">
                           <Image
-                            src="/assets/img/icon/06.svg"
+                            src="/assets/img/icon/oil.svg"
                             width={30}
                             height={30}
                             alt="img"
                           />
                         </div>
                         <h5 className="splt-txt wow">
-                          <AnimatedText text="Global Network of Partners" />
+                          <AnimatedText text="Oil & Gas " />
+                        </h5>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 wow fadeInUp" data-wow-delay=".4s">
+                      <div className="icon-items">
+                        <div className="icon">
+                          <Image
+                            src="/assets/img/icon/power.svg"
+                            width={30}
+                            height={30}
+                            alt="img"
+                          />
+                        </div>
+                        <h5 className="splt-txt wow">
+                          <AnimatedText text="Power " />
                         </h5>
                       </div>
                     </div>

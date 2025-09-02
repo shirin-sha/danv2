@@ -25,9 +25,7 @@ export default function page() {
       <Hero />
       <About />
       <Services />
-      <div className="brand-section fix section-padding">
-        <Brands />
-      </div>
+   
       <section
         className="pricing-section fix section-padding bg-cover"
         style={{ backgroundImage: 'url("/assets/img/pricing-bg.jpg")' }}
@@ -36,7 +34,9 @@ export default function page() {
       </section>
       <Cta />
       <Achievements />
-      <Testimonials />
+      <div className="brand-section fix section-padding">
+        <Brands />
+      </div>
 
       <Footer1 />
     </>

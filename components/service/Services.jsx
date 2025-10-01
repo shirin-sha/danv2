@@ -1,74 +1,80 @@
+"use client";
 import React from "react";
-import Pagination from "../common/Pagination";
 import { services } from "@/data/services";
-import Link from "next/link";
-import Image from "next/image";
 import AnimatedText from "@/components/common/AnimatedText";
+import Pagination from "@/components/common/Pagination";
+
 export default function Services() {
   return (
     <section className="service-section fix section-padding">
       <div className="container">
         <div className="section-title text-center">
           <h6 className="wow fadeInUp">
-            <i className="fa-regular fa-arrow-left-long"></i>Our Services
-            <i className="fa-regular fa-arrow-right-long"></i>
+            <i className="fa-regular fa-arrow-left-long" />
+            our services
+            <i className="fa-regular fa-arrow-right-long" />
           </h6>
           <h2 className="splt-txt wow">
             <AnimatedText text="Reliable Industrial Services " /> <br />
             <AnimatedText text="Backed by Decades of Expertise" />
           </h2>
         </div>
-        <div className="row">
+        <div className="row g-4 justify-content-center">
           {services.map((service) => (
             <div
               key={service.id}
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp"
               data-wow-delay={service.delay}
             >
-              <div className="service-box-items items-bg">
-                <div className="service-thumb">
-                  <Image
-                    src={service.image}
-                    width={346}
-                    height={236}
-                    alt="img"
-                  />
-                  <div className="icon">
+                <div 
+                  className="items-bg h-100"
+                  style={{
+                    padding: '32px 24px',
+                    textAlign: 'center',
+                    transition: 'all 0.3s ease',
+                    borderRadius: '8px'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-5px)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                  }}
+                >
+                  {/* <div style={{
+                    width: '80px',
+                    height: '80px',
+                    borderRadius: '50%',
+                    backgroundColor: 'rgba(1, 152, 241, 0.1)',
+                    border: '2px solid rgba(1, 152, 241, 0.2)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    margin: '0 auto 20px',
+                    transition: 'all 0.3s ease'
+                  }}>
                     <Image
                       src={service.icon}
-                      width={32}
-                      height={32}
+                      width={40}
+                      height={40}
                       alt="img"
                     />
-                  </div>
+                  </div> */}
+                  <h4 style={{
+                    fontSize: '22px',
+                    fontWeight: '700',
+                    lineHeight: '1.3',
+                    margin: 0,
+                    color: '#000000'
+                  }}>
+                    {service.title}
+                  </h4>
                 </div>
-                <div className="service-content">
-                  {/* <h2 className="number">{service.number}</h2> */}
-                  <h3>
-                    <Link href={`/service-details/${service.id}`}>
-                      {service.title}
-                    </Link>
-                  </h3>
-                  <p>{service.description}</p>
-                  <Link
-                    href={`/service-details/${service.id}`}
-                    className="link-btn"
-                  >
-                    Explore More <i className="fa-solid fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
+        
             </div>
           ))}
         </div>
-        <div
-          className="page-nav-wrap pt-5 text-center wow fadeInUp"
-          data-wow-delay=".3s"
-        >
-          <ul>
-            <Pagination />
-          </ul>
-        </div>
+    
       </div>
     </section>
   );

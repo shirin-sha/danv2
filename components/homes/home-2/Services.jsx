@@ -99,13 +99,6 @@ export default function Services() {
                       {item.title}
                     </Link>
                   </h3>
-                  <p>{item.description}</p>
-                  <Link
-                    href={`/service`}
-                    className="link-btn"
-                  >
-                    Explore More <i className="fa-solid fa-arrow-right" />
-                  </Link>
                 </div>
                 <div className="items-shape">
                   <Image

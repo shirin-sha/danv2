@@ -97,16 +97,15 @@ export default function page() {
                 <div className="about-content">
                   <div className="section-title">
                     <h6 className="wow fadeInUp">
-                      <i className="fa-regular fa-arrow-left-long"></i> Empowering Industry Since 1978
+                      <i className="fa-regular fa-arrow-left-long"></i>Locally Your Global Partner
                       <i className="fa-regular fa-arrow-right-long"></i>
                     </h6>
                     <h2 className="splt-txt wow">
-                      <AnimatedText text="Your Reliable Partner in
-Industrial Progress" />
+                      <AnimatedText text=" Leading Industrial Players in Kuwait" />
                     </h2>
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
-                  With over four decades of proven experience, DAN General Trading & Contracting Co. W.L.L. stands as a key player in Kuwait’s industrial sector. Specializing in oil, gas, petrochemical, power, water, and logistics, we deliver world-class products and solutions through strong global partnerships, technical excellence, and an unwavering commitment to safety and service.
+                  With over four decades of proven experience, DAN General Trading & Contracting Co. W.L.L. stands as a key player in Kuwait's industrial sector. Specializing in oil, gas, petrochemical, power, water, and logistics, we deliver world-class products and solutions through strong global partnerships, technical excellence, and an unwavering commitment to safety and service.
                   </p>
                   <ul className="list-items wow fadeInUp" data-wow-delay=".2s">
                     <li>
@@ -150,7 +149,7 @@ Industrial Progress" />
                   Dan General Trading is a company providing a diversified range of products and professional services for Oil, Gas and Power Sectors of Kuwait. We always feel proud to be the most trusted partner to our customers which has given an edge over other companies in the market.
                 </p>
                 <p>
-                  I would like to take this opportunity to express my profound gratitude to all our clients and business partners for their continued support and contributions to the success of Dan General Trading through the years. We would like to stress here the role of our strong chain of suppliers, who have supported us to the extremes, in fulfilling our requests to meet our customer’s satisfaction, and their ambitions as well.
+                  I would like to take this opportunity to express my profound gratitude to all our clients and business partners for their continued support and contributions to the success of Dan General Trading through the years. We would like to stress here the role of our strong chain of suppliers, who have supported us to the extremes, in fulfilling our requests to meet our customer's satisfaction, and their ambitions as well.
                 </p>
                 <p>
                   We, at Dan General Trading will certainly continue to do what we do best; to ensure the high level of excellence and quality in our Products & Services.
@@ -180,8 +179,17 @@ Industrial Progress" />
             <div className="col-lg-6">
               <div className="items-bg h-100 wow fadeInUp" data-wow-delay=".2s" style={{ padding: 28 }}>
                 <div className="d-flex align-items-center mb-2">
-                  <div className="icon me-2">
-                    <Image src="/assets/img/icon/05.svg" width={28} height={28} alt="Mission" />
+                  <div className="icon me-3" style={{ 
+                    width: 60, 
+                    height: 60, 
+                    borderRadius: '12px', 
+                    backgroundColor: '#0198F1', 
+                    display: 'flex', 
+                    alignItems: 'center', 
+                    justifyContent: 'center',
+                    flexShrink: 0
+                  }}>
+                    <Image src="/assets/img/icon/05.svg" width={30} height={30} alt="Mission" />
                   </div>
                   <h3 className="mb-0">Our Mission</h3>
                 </div>
@@ -191,7 +199,7 @@ Industrial Progress" />
                     <i className="fa-solid fa-circle-check" /> Strive for Customer satisfaction through quality service and perpetual communication
                   </li>
                   <li>
-                    <i className="fa-solid fa-circle-check" /> Provide products that meet the customer’s expectation by teaming up with well-established international suppliers
+                    <i className="fa-solid fa-circle-check" /> Provide products that meet the customer's expectation by teaming up with well-established international suppliers
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check" /> Promote up-to-date products that will give the customer a competitive edge
@@ -205,8 +213,17 @@ Industrial Progress" />
             <div className="col-lg-6">
               <div className="items-bg h-100 wow fadeInUp" data-wow-delay=".3s" style={{ padding: 28 }}>
                 <div className="d-flex align-items-center mb-2">
-                  <div className="icon me-2">
-                    <Image src="/assets/img/icon/06.svg" width={28} height={28} alt="Vision" />
+                  <div className="icon me-3" style={{ 
+                    width: 60, 
+                    height: 60, 
+                    borderRadius: '12px', 
+                    backgroundColor: '#0198F1', 
+                    display: 'flex', 
+                    alignItems: 'center', 
+                    justifyContent: 'center',
+                    flexShrink: 0
+                  }}>
+                    <Image src="/assets/img/icon/06.svg" width={30} height={30} alt="Vision" />
                   </div>
                   <h3 className="mb-0">Our Vision</h3>
                 </div>
@@ -454,12 +471,6 @@ Industrial Progress" />
       </section>
 
             <Highlights />
-
-      <div style={{ height: '120px' }}></div>
-      {/* Section 7: Testimonials */}
-      
-      <Testimonials/>
-
 
       {/* Section 9: Client Logos */}
       <div className="brand-section fix section-padding py-60px">

@@ -39,26 +39,11 @@ export default function Brands() {
       <Swiper {...swiperOptions} className="swiper brand-slider">
         {brandLogos.map((src, index) => (
           <SwiperSlide key={index} className="swiper-slide">
-            <div 
-              className="brand-image center"
-              style={{
-                height: '150px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                padding: '15px'
-              }}
-            >
+            <div className="brand-image center">
               <Image
-                width={200}
-                height={150}
-                style={{ 
-                  objectFit: "contain",
-                  maxWidth: '100%',
-                  maxHeight: '100%',
-                  width: 'auto',
-                  height: 'auto'
-                }}
+                width={150}
+                height={180}
+                style={{ objectFit: "contain" }}
                 src={src}
                 alt={`Brand logo ${index + 1}`}
               />
